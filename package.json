@@ -19,7 +19,6 @@
   },
   "devDependencies": {
     "@bigtest/interactor": "^0.8.1",
-    "@bigtest/mirage": "^0.0.1",
     "@bigtest/mocha": "^0.5.1",
     "@bigtest/react": "^0.1.2",
     "@folio/eslint-config-stripes": "^5.0.0",
@@ -29,6 +28,8 @@
     "babel-polyfill": "^6.26.0",
     "chai": "^4.2.0",
     "eslint": "^6.2.1",
+    "inflected": "^2.0.4",
+    "miragejs": "^0.1.40",
     "mocha": "^5.2.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
@@ -51,7 +52,9 @@
     "react-router-dom": "^4.3.1"
   },
   "stripes": {
-    "actsAs": ["settings"],
+    "actsAs": [
+      "settings"
+    ],
     "displayName": "ui-notes.meta.title",
     "route": "/notes",
     "okapiInterfaces": {
