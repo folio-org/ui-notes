@@ -1,5 +1,9 @@
 # Change history for ui-notes
 
+## [4.0.0] (IN PROGRESS)
+
+* Increment `@folio/stripes` to `v5`, `react-router` to `v5.2`.
+
 ## [3.0.0] (https://github.com/folio-org/ui-notes/tree/v3.0.0) (2020-06-09)
 
 * Update react-intl to v4
