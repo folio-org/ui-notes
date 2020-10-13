@@ -9,9 +9,9 @@
     "settings.general": "Generale",
     "permission.module.notes.enabled": "UI: ui-notes module is enabled",
     "permission.notes.enabled": "Settings (notes): display list of settings pages",
-    "permission.item.view": "Notes: Can view a note",
+    "permission.item.view": "Note: può visualizzare una nota",
     "permission.item.create": "Notes: Can create a note",
-    "permission.item.edit": "Notes: Can edit a note",
-    "permission.item.delete": "Notes: Can delete a note",
+    "permission.item.edit": "Note: può modificare una nota",
+    "permission.item.delete": "Note: può eliminare una nota",
     "permission.item.assign-unassign": "Notes: Can assign and unassign a note"
 }
