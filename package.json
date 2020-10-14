@@ -1,6 +1,6 @@
 {
   "name": "@folio/notes",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Note types manager",
   "repository": "",
   "main": "src/index.js",
