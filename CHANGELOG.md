@@ -1,10 +1,12 @@
 # Change history for ui-notes
 
-## [4.0.0] (IN PROGRESS)
+## [4.0.0] (https://github.com/folio-org/ui-notes/tree/v4.0.0) (2020-10-14)
+[Full Changelog](https://github.com/folio-org/ui-notes/compare/v3.0.0...v4.0.0)
 
 * Increment `@folio/stripes` to `v5`, `react-router` to `v5.2`.
 
 ## [3.0.0] (https://github.com/folio-org/ui-notes/tree/v3.0.0) (2020-06-09)
+[Full Changelog](https://github.com/folio-org/ui-notes/compare/v2.0.0...v3.0.0)
 
 * Update react-intl to v4
 * Added permission display names to translations (UINOTES-79).
