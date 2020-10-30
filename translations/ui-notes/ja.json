@@ -6,7 +6,7 @@
     "settings.duplicated": "{field} duplicated",
     "settings.maxAmout": "Maximum # of note types allowed is {amount}.",
     "meta.title": "ノート",
-    "settings.general": "General",
+    "settings.general": "一般",
     "permission.module.notes.enabled": "UI: ui-notes module is enabled",
     "permission.notes.enabled": "Settings (notes): display list of settings pages",
     "permission.item.view": "Notes: Can view a note",
