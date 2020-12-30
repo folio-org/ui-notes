@@ -7,11 +7,11 @@
     "settings.maxAmout": "El número máximo de tipos de notas permitidos es {amount} .",
     "meta.title": "Notas",
     "settings.general": "General",
-    "permission.module.notes.enabled": "UI: ui-notes module is enabled",
-    "permission.notes.enabled": "Settings (notes): display list of settings pages",
-    "permission.item.view": "Notes: Can view a note",
-    "permission.item.create": "Notes: Can create a note",
-    "permission.item.edit": "Notes: Can edit a note",
-    "permission.item.delete": "Notes: Can delete a note",
-    "permission.item.assign-unassign": "Notes: Can assign and unassign a note"
+    "permission.module.notes.enabled": "UI: modulo ui-notas  está habilitado",
+    "permission.notes.enabled": "Configuración (notas): muestra la lista de páginas de configuración",
+    "permission.item.view": "Notas: Puede ver una nota",
+    "permission.item.create": "Notas: Puede crear una nota",
+    "permission.item.edit": "Notas: Puede editar una nota",
+    "permission.item.delete": "Notas: Puede eliminar una nota",
+    "permission.item.assign-unassign": "Notas: Puede asignar y desasignar una nota"
 }
