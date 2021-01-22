@@ -11,7 +11,7 @@
     "permission.notes.enabled": "Settings (notes): display list of settings pages",
     "permission.item.view": "Notes: Can view a note",
     "permission.item.create": "Notes: Can create a note",
-    "permission.item.edit": "Noter: Kan redigere en note",
+    "permission.item.edit": "Notes: Can edit a note",
     "permission.item.delete": "Notes: Can delete a note",
     "permission.item.assign-unassign": "Notes: Can assign and unassign a note"
 }
