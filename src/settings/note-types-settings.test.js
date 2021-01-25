@@ -1,20 +1,35 @@
 import React from 'react';
-import { render, cleanup } from '@testing-library/react';
+import { render } from '@testing-library/react';
+
+import { useStripes } from '@folio/stripes/core';
+import { ControlledVocab } from '@folio/stripes/smart-components';
 
 import NoteTypesSettings from './note-types-settings';
 
-const renderNotesTypesSettings = () => (render(
+const renderNoteTypesSettings = ({ stripes = {} }) => render(
   <NoteTypesSettings
-    stripes={{ connect: jest.fn(component => component) }}
+    stripes={stripes}
   />
-));
+);
 
-describe('Note Type Settings', () => {
-  afterEach(cleanup);
+describe('Given NoteTypesSettings', () => {
+  let stripes;
 
-  it('Than it should display record status', () => {
-    const { getByText } = renderNotesTypesSettings();
-  
-    expect(getByText('ui-quick-marc.record.status.current', { exact: false })).toBeDefined();
+  beforeEach(() => {
+    ControlledVocab.mockClear();
+
+    stripes = useStripes();
+  });
+
+  it('should render ConnectedControlledVocab component', async () => {
+    renderNoteTypesSettings({ stripes });
+
+    expect(ControlledVocab).toHaveBeenCalled();
+  });
+
+  it('should render correct label', async () => {
+    const { getByText } = renderNoteTypesSettings({ stripes });
+
+    expect(getByText('ui-notes.settings.noteTypes')).toBeDefined();
   });
 });

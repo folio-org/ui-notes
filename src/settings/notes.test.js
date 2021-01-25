@@ -1,22 +1,47 @@
 import React from 'react';
-import { render, cleanup } from '@testing-library/react';
+import { render } from '@testing-library/react';
+
+import { Settings } from '@folio/stripes/smart-components';
 
 import Notes from './notes';
 
-const renderNotes = () => (render(
+const paneTitleId = 'ui-notes.settings.index.paneTitle';
+const route = 'general';
+const labelId = 'ui-notes.settings.general';
+
+const renderNotes = ({
+  location = {},
+  match = {},
+  stripes = {},
+} = {}) => (render(
   <Notes
-    stripes={{ connect: jest.fn(component => component) }}
-    location={{}}
-    match={{}}
-  />
+    location={location}
+    match={match}
+    stripes={stripes}
+  />,
 ));
 
-describe('Note Type Settings', () => {
-  afterEach(cleanup);
+describe('Given Notes Settings', () => {
+  beforeEach(() => {
+    Settings.mockClear();
+  });
 
-  it('Than it should display record status', () => {
+  it('should render Settings component', async () => {
+    renderNotes();
+
+    expect(Settings).toHaveBeenCalled();
+  });
+
+  it('should render correct pane title', async () => {
     const { getByText } = renderNotes();
-  
-    expect(getByText('ui-quick-marc.record.status.current', { exact: false })).toBeDefined();
+
+    expect(getByText(paneTitleId)).toBeDefined();
+  });
+
+  it('should has pages prop', async () => {
+    const { getByText } = renderNotes();
+
+    expect(getByText(route)).toBeDefined();
+    expect(getByText(labelId)).toBeDefined();
   });
 });

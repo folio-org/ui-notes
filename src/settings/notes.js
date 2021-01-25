@@ -7,7 +7,7 @@ import NoteTypesSettings from './note-types-settings';
 const propTypes = {
   location: PropTypes.object.isRequired,
   match: PropTypes.object.isRequired,
-  stripes: PropTypes.object.isRequired
+  stripes: PropTypes.object.isRequired,
 };
   
 const Notes = ({

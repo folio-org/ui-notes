@@ -4,5 +4,5 @@ buildNPM {
   runLint = 'yes'
   runSonarqube = true
   runTest = 'yes'
-  runTestOptions = ''
+  runTestOptions = '--ci --coverage'
 }

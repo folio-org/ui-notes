@@ -19,16 +19,14 @@ const NoteTypesSettings = ({ stripes }) => {
   const { formatMessage } = useIntl();
   const ConnectedControlledVocab = stripes.connect(ControlledVocab);
 
-  const validateName = (item, index, items) => {
-    const label = formatMessage({ id: 'ui-notes.settings.noteType' });
+  const label = formatMessage({ id: 'ui-notes.settings.noteType' });
 
+  const validateName = (item, index, items) => {
     return validate(item, index, items, 'name', label);
-  }
+  };
 
   const suppressDelete = noteType => get(noteType, 'usage.noteTotal') > 0;
   const suppressEdit = () => false;
-
-  const label = formatMessage({ id: 'ui-notes.settings.noteType' });
 
   return (
     <ConnectedControlledVocab
