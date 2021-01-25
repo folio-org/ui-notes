@@ -14,7 +14,7 @@ export function validate(item, index, items, field, label) {
   if (items.length > NOTE_TYPES_MAX_COUNT) {
     error[field] = (
       <FormattedMessage
-        id="ui-notes.settings.maxAmout"
+        id="ui-notes.settings.maxAmount"
         values={{ amount: NOTE_TYPES_MAX_COUNT }}
       />
     );

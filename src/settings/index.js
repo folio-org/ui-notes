@@ -1,3 +1,6 @@
+import Notes from "./notes"
+
+/*
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { FormattedMessage } from 'react-intl';
@@ -36,3 +39,5 @@ Notes.propTypes = {
   match: PropTypes.object.isRequired,
   stripes: PropTypes.object.isRequired
 };
+*/
+export { default } from './notes';
