@@ -11,7 +11,8 @@ module.exports = {
   },
   extends: ['@folio/eslint-config-stripes'],
   env: {
-    browser: true
+    browser: true,
+    "jest/globals": true
   },
   globals: {
     process: true,
@@ -28,5 +29,6 @@ module.exports = {
     "react/forbid-prop-types": "off",
     "react/destructuring-assignment": "off",
     "react/sort-prop-types": ["error"]
-  }
+  },
+  plugins: ["jest"]
 };
