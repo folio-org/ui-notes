@@ -3,6 +3,7 @@
 ## [5.0.0] (IN PROGRESS)
 
 * Increment `notes` interface to `2.0`
+* Hide 'module.notes.enabled' permission (UINOTES-98).
 
 ## [4.0.0] (https://github.com/folio-org/ui-notes/tree/v4.0.0) (2020-10-14)
 [Full Changelog](https://github.com/folio-org/ui-notes/compare/v3.0.0...v4.0.0)

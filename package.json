@@ -76,7 +76,7 @@
       {
         "permissionName": "module.notes.enabled",
         "displayName": "UI: ui-notes module is enabled",
-        "visible": true
+        "visible": false
       },
       {
         "permissionName": "settings.notes.enabled",
