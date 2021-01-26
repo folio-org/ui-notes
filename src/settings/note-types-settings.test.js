@@ -6,7 +6,7 @@ import { ControlledVocab } from '@folio/stripes/smart-components';
 
 import NoteTypesSettings from './note-types-settings';
 
-const renderNoteTypesSettings = ({ stripes = {} }) => render(
+const renderNoteTypesSettings = ({ stripes }) => render(
   <NoteTypesSettings
     stripes={stripes}
   />

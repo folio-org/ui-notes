@@ -9,7 +9,7 @@ const propTypes = {
   match: PropTypes.object.isRequired,
   stripes: PropTypes.object.isRequired,
 };
-  
+
 const Notes = ({
   location,
   match,

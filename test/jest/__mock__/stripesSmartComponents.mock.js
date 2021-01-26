@@ -1,7 +1,6 @@
 import React from 'react';
 
-jest.mock('@folio/stripes/smart-components', () => {
-  return {
+jest.mock('@folio/stripes/smart-components', () => ({
   ...jest.requireActual('@folio/stripes/smart-components'),
   ControlledVocab: jest.fn(({
     label,
@@ -20,4 +19,4 @@ jest.mock('@folio/stripes/smart-components', () => {
       <span>{pages[0].label}</span>
     </>
   )),
-}}, { virtual: true });
+}), { virtual: true });

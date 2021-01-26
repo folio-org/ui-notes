@@ -12,7 +12,7 @@
     "start": "stripes serve",
     "build": "stripes build --output ./dist",
     "test-int": "stripes test nightmare --run demo --show",
-    "test": "jest --ci --coverage",
+    "test": "jest --coverage",
     "lint": "eslint ./ && stylelint \"src/**/*.css\"",
     "eslint": "eslint ./",
     "stylelint": "stylelint \"src/**/*.css\""
@@ -31,6 +31,7 @@
     "babel-jest": "^26.3.0",
     "babel-polyfill": "^6.26.0",
     "eslint": "^6.2.1",
+    "eslint-plugin-jest": "^24.1.3",
     "inflected": "^2.0.4",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^26.4.2",
