@@ -4,7 +4,6 @@
     "settings.noteType": "Notiztyp",
     "settings.notes": "Notizen",
     "settings.duplicated": "{field} dupliziert",
-    "settings.maxAmout": "Die maximale Anzahl # von Notentypen ist {amount}.",
     "meta.title": "Notizen",
     "settings.general": "Allgemein",
     "permission.module.notes.enabled": "UI: ui-Notizen Modul ist aktiviert",
@@ -13,5 +12,6 @@
     "permission.item.create": "Notizen: Kann eine Notiz erstellen",
     "permission.item.edit": "Notizen: Kann eine Notiz bearbeiten",
     "permission.item.delete": "Notizen: Kann eine Notiz löschen",
-    "permission.item.assign-unassign": "Notizen: Kann eine Notiz zuweisen oder entfernen"
+    "permission.item.assign-unassign": "Notizen: Kann eine Notiz zuweisen oder entfernen",
+    "settings.maxAmount": "Maximum # of note types allowed is {amount}."
 }

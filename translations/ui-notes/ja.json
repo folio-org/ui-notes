@@ -4,7 +4,6 @@
     "settings.noteType": "ノートタイプ",
     "settings.notes": "ノート",
     "settings.duplicated": "{field} duplicated",
-    "settings.maxAmout": "Maximum # of note types allowed is {amount}.",
     "meta.title": "ノート",
     "settings.general": "一般",
     "permission.module.notes.enabled": "UI: ui-notes module is enabled",
@@ -13,5 +12,6 @@
     "permission.item.create": "Notes: Can create a note",
     "permission.item.edit": "Notes: Can edit a note",
     "permission.item.delete": "Notes: Can delete a note",
-    "permission.item.assign-unassign": "Notes: Can assign and unassign a note"
+    "permission.item.assign-unassign": "Notes: Can assign and unassign a note",
+    "settings.maxAmount": "Maximum # of note types allowed is {amount}."
 }
