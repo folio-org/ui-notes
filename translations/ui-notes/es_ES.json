@@ -4,7 +4,6 @@
     "settings.noteType": "Tipo de nota",
     "settings.notes": "Notas",
     "settings.duplicated": "{field} duplicado",
-    "settings.maxAmout": "El número máximo de tipos de notas permitidos es {amount} .",
     "meta.title": "Notas",
     "settings.general": "General",
     "permission.module.notes.enabled": "UI: modulo ui-notas  está habilitado",
@@ -13,5 +12,6 @@
     "permission.item.create": "Notas: Puede crear una nota",
     "permission.item.edit": "Notas: Puede editar una nota",
     "permission.item.delete": "Notas: Puede eliminar una nota",
-    "permission.item.assign-unassign": "Notas: Puede asignar y desasignar una nota"
+    "permission.item.assign-unassign": "Notas: Puede asignar y desasignar una nota",
+    "settings.maxAmount": "Maximum # of note types allowed is {amount}."
 }

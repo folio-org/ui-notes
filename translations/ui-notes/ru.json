@@ -4,7 +4,6 @@
     "settings.noteType": "Note type",
     "settings.notes": "Notes",
     "settings.duplicated": "{field} duplicated",
-    "settings.maxAmout": "Maximum # of note types allowed is {amount}.",
     "meta.title": "Notes",
     "settings.general": "Общие",
     "permission.module.notes.enabled": "Интерфейс пользователя: модуль ui-notes включён",
@@ -13,5 +12,6 @@
     "permission.item.create": "Примечания: можно создать заметку",
     "permission.item.edit": "Примечания: можно редактировать примечание",
     "permission.item.delete": "Примечания: можно удалить заметку",
-    "permission.item.assign-unassign": "Примечания: можно разместить заметку и отменить размещение заметки"
+    "permission.item.assign-unassign": "Примечания: можно разместить заметку и отменить размещение заметки",
+    "settings.maxAmount": "Maximum # of note types allowed is {amount}."
 }

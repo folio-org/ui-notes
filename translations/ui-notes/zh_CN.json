@@ -4,7 +4,6 @@
     "settings.noteType": "附注类型",
     "settings.notes": "附注",
     "settings.duplicated": "{field}重复",
-    "settings.maxAmout": "允许的附注类型最大为{amount} 。",
     "meta.title": "附注",
     "settings.general": "通用",
     "permission.module.notes.enabled": "UI：启用了ui-附注模块",
@@ -13,5 +12,6 @@
     "permission.item.create": "附注：可以创建附注",
     "permission.item.edit": "附注：可以编辑附注",
     "permission.item.delete": "附注：可以删除附注",
-    "permission.item.assign-unassign": "附注：可以分配和取消分配附注"
+    "permission.item.assign-unassign": "附注：可以分配和取消分配附注",
+    "settings.maxAmount": "Maximum # of note types allowed is {amount}."
 }
