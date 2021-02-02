@@ -13,5 +13,5 @@
     "permission.item.edit": "附注：可以编辑附注",
     "permission.item.delete": "附注：可以删除附注",
     "permission.item.assign-unassign": "附注：可以分配和取消分配附注",
-    "settings.maxAmount": "Maximum # of note types allowed is {amount}."
+    "settings.maxAmount": "允许的最大附注类型数为{amount} 。"
 }
