@@ -5,6 +5,7 @@
 * Increment `notes` interface to `2.0`
 * Hide 'module.notes.enabled' permission (UINOTES-98).
 * Updated to stripes v6 (UINOTES-99).
+* Updated to stripes-cli v2.
 
 ## [4.0.0] (https://github.com/folio-org/ui-notes/tree/v4.0.0) (2020-10-14)
 [Full Changelog](https://github.com/folio-org/ui-notes/compare/v3.0.0...v4.0.0)
