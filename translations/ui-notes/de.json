@@ -13,5 +13,5 @@
     "permission.item.edit": "Notizen: Kann eine Notiz bearbeiten",
     "permission.item.delete": "Notizen: Kann eine Notiz löschen",
     "permission.item.assign-unassign": "Notizen: Kann eine Notiz zuweisen oder entfernen",
-    "settings.maxAmount": "Maximum # of note types allowed is {amount}."
+    "settings.maxAmount": "Maximale Anzahl # von zulässigen Notiztypen ist {amount}."
 }
