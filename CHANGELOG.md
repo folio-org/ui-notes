@@ -1,6 +1,7 @@
 # Change history for ui-notes
 
-## [5.0.0] (IN PROGRESS)
+## [5.0.0] (https://github.com/folio-org/ui-notes/tree/v5.0.0) (2020-03-04)
+[Full Changelog](https://github.com/folio-org/ui-notes/compare/v4.0.0...v5.0.0)
 
 * Increment `notes` interface to `2.0`
 * Hide 'module.notes.enabled' permission (UINOTES-98).
