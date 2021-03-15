@@ -74,7 +74,7 @@
       },
       {
         "permissionName": "settings.notes.enabled",
-        "displayName": "Settings (notes): display list of settings pages",
+        "displayName": "Settings (Notes): Edit and View General settings",
         "subPermissions": [
           "settings.enabled",
           "note.types.allops"
