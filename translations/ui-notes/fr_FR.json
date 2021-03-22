@@ -1,17 +1,17 @@
 {
-    "settings.index.paneTitle": "Commentaires",
-    "settings.noteTypes": "Types de commentaire",
-    "settings.noteType": "Type de commentaire",
+    "settings.index.paneTitle": "Notes",
+    "settings.noteTypes": "Types de notes",
+    "settings.noteType": "Type de note",
     "settings.notes": "Commentaires",
     "settings.duplicated": "{field} dupliqué",
     "meta.title": "Commentaires",
     "settings.general": "Général",
     "permission.module.notes.enabled": "UI: ui-notes module is enabled",
-    "permission.notes.enabled": "Settings (Notes): Edit and View General settings",
+    "permission.notes.enabled": "Paramètres (Notes): Modifier et afficher les paramètres généraux",
     "permission.item.view": "Notes: peut afficher une note",
     "permission.item.create": "Notes: peut créer une note",
     "permission.item.edit": "Notes: peut modifier une note",
     "permission.item.delete": "Notes: peut supprimer une note",
     "permission.item.assign-unassign": "Notes: peut affecter et annuler l'attribution d'une note",
-    "settings.maxAmount": "Maximum # of note types allowed is {amount}."
+    "settings.maxAmount": "Le nombre maximum de types de notes autorisés est de {amount} ."
 }
