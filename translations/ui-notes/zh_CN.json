@@ -7,7 +7,7 @@
     "meta.title": "附注",
     "settings.general": "通用",
     "permission.module.notes.enabled": "UI：启用了ui-附注模块",
-    "permission.notes.enabled": "设置（附注）：设置页面显示清单",
+    "permission.notes.enabled": "设置（附注）：编辑和查看通用设置",
     "permission.item.view": "附注：可以查看附注",
     "permission.item.create": "附注：可以创建附注",
     "permission.item.edit": "附注：可以编辑附注",
