@@ -15,7 +15,8 @@
     "test": "jest --coverage",
     "lint": "eslint ./ && stylelint \"src/**/*.css\"",
     "eslint": "eslint ./",
-    "stylelint": "stylelint \"src/**/*.css\""
+    "stylelint": "stylelint \"src/**/*.css\"",
+    "formatjs-compile": "formatjs compile-folder --ast --format simple ./translations/ui-notes ./translations/ui-notes/compiled"
   },
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.10.4",
@@ -25,6 +26,7 @@
     "@folio/eslint-config-stripes": "^5.0.0",
     "@folio/stripes": "^6.0.0",
     "@folio/stripes-cli": "^2.0.0",
+    "@formatjs/cli": "^4.2.7",
     "@testing-library/jest-dom": "^5.11.1",
     "@testing-library/react": "^11.0.2",
     "babel-eslint": "^10.0.3",
@@ -32,8 +34,8 @@
     "babel-polyfill": "^6.26.0",
     "eslint": "^6.2.1",
     "eslint-plugin-jest": "^24.1.3",
-    "inflected": "^2.0.4",
     "identity-obj-proxy": "^3.0.0",
+    "inflected": "^2.0.4",
     "jest": "^26.4.2",
     "jest-junit": "^12.0.0",
     "react": "^16.4.1",
