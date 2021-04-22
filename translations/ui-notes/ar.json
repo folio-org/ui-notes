@@ -7,7 +7,7 @@
     "meta.title": "ملاحظات",
     "settings.general": "عام",
     "permission.module.notes.enabled": "واجهة المستخدم: تم تفعيل وحدة ملاحظات-واجهة المستخدم",
-    "permission.notes.enabled": "الإعدادات (ملاحظات): اعرض قائمة بصفحات الإعدادات",
+    "permission.notes.enabled": "الإعدادات (ملاحظات): حرّر واعرض الإعدادات العامة",
     "permission.item.view": "ملاحظات: إمكانية عرض ملاحظة",
     "permission.item.create": "ملاحظات: إمكانية إنشاء ملاحظة",
     "permission.item.edit": "ملاحظات: إمكانية تحرير ملاحظة",
