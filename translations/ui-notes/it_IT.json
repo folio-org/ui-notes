@@ -6,12 +6,12 @@
     "settings.duplicated": "{field} duplicato",
     "meta.title": "Note",
     "settings.general": "Generale",
-    "permission.module.notes.enabled": "UI: ui-notes module is enabled",
-    "permission.notes.enabled": "Settings (Notes): Edit and View General settings",
+    "permission.module.notes.enabled": "UI: il modulo ui-notes è abilitato",
+    "permission.notes.enabled": "Impostazioni (Note): Modifica e visualizza le impostazioni generali",
     "permission.item.view": "Note: può visualizzare una nota",
-    "permission.item.create": "Notes: Can create a note",
+    "permission.item.create": "Note: può creare una nota",
     "permission.item.edit": "Note: può modificare una nota",
     "permission.item.delete": "Note: può eliminare una nota",
-    "permission.item.assign-unassign": "Notes: Can assign and unassign a note",
-    "settings.maxAmount": "Maximum # of note types allowed is {amount}."
+    "permission.item.assign-unassign": "Note: può assegnare e annullare l'assegnazione di una nota",
+    "settings.maxAmount": "Il numero massimo di tipi di nota consentiti è {amount} ."
 }
