@@ -13,5 +13,5 @@
     "permission.item.edit": "Notas: Puede editar una nota",
     "permission.item.delete": "Notas: Puede eliminar una nota",
     "permission.item.assign-unassign": "Notas: Puede asignar y desasignar una nota",
-    "settings.maxAmount": "Maximum # of note types allowed is {amount}."
+    "settings.maxAmount": "El número máximo de tipos de nota permitidos es {amount}."
 }
