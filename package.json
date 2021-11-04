@@ -80,7 +80,11 @@
         "displayName": "Settings (Notes): Edit and View General settings",
         "subPermissions": [
           "settings.enabled",
-          "note.types.allops"
+          "note.types.item.get",
+          "note.types.collection.get",
+          "note.types.item.post",
+          "note.types.item.put",
+          "note.types.item.delete"
         ],
         "visible": true
       },
