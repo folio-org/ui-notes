@@ -89,6 +89,7 @@
         "displayName": "Notes: Can view a note",
         "subPermissions": [
           "note.types.collection.get",
+          "note.types.item.get",
           "notes.item.get",
           "notes.collection.get",
           "notes.collection.get.by.status",
@@ -102,6 +103,7 @@
         "displayName": "Notes: Can create a note",
         "subPermissions": [
           "notes.item.post",
+          "note.types.item.post",
           "notes.domain.all",
           "ui-notes.item.view"
         ],
@@ -112,6 +114,7 @@
         "displayName": "Notes: Can edit a note",
         "subPermissions": [
           "notes.item.put",
+          "note.types.item.put",
           "notes.domain.all",
           "ui-notes.item.view"
         ],
@@ -122,6 +125,7 @@
         "displayName": "Notes: Can delete a note",
         "subPermissions": [
           "notes.item.delete",
+          "note.types.item.delete",
           "notes.domain.all",
           "ui-notes.item.view"
         ],
