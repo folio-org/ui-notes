@@ -1,6 +1,11 @@
 # Change history for ui-notes
 
+## [6.0.1] (IN PROGRESS)
+
+* Settings > Notes > Note types : Cannot add or edit a note type. (UINOTES-115)
+
 ## [6.0.0] (https://github.com/folio-org/ui-notes/tree/v6.0.0) (2020-10-01)
+
 * Compile Translation Files into AST Format (UINOTES-105).
 * Update stripes v7 and react v17. (UINOTES-110).
 
