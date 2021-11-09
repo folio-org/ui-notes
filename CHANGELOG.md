@@ -1,6 +1,6 @@
 # Change history for ui-notes
 
-## [6.0.1] (IN PROGRESS)
+## [6.0.1] (https://github.com/folio-org/ui-notes/tree/v6.0.1) (2020-11-09)
 
 * Settings > Notes > Note types : Cannot add or edit a note type. (UINOTES-115)
 
