@@ -1,6 +1,10 @@
 # Change history for ui-notes
 
-## [6.0.1] (IN PROGRESS)
+## [6.1.0] (IN PROGRESS)
+
+* Refactor '.all' permissions. (UINOTES-112)
+
+## [6.0.1] (https://github.com/folio-org/ui-notes/tree/v6.0.1) (2020-11-09)
 
 * Settings > Notes > Note types : Cannot add or edit a note type. (UINOTES-115)
 
@@ -8,7 +12,6 @@
 
 * Compile Translation Files into AST Format (UINOTES-105).
 * Update stripes v7 and react v17. (UINOTES-110).
-* Refactor '.all' permissions. (UINOTES-112)
 
 ## [5.0.0] (https://github.com/folio-org/ui-notes/tree/v5.0.0) (2020-03-04)
 [Full Changelog](https://github.com/folio-org/ui-notes/compare/v4.0.0...v5.0.0)
