@@ -8,6 +8,7 @@
 
 * Compile Translation Files into AST Format (UINOTES-105).
 * Update stripes v7 and react v17. (UINOTES-110).
+* Refactor '.all' permissions. (UINOTES-112)
 
 ## [5.0.0] (https://github.com/folio-org/ui-notes/tree/v5.0.0) (2020-03-04)
 [Full Changelog](https://github.com/folio-org/ui-notes/compare/v4.0.0...v5.0.0)
