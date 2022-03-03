@@ -1,19 +1,22 @@
 # Change history for ui-notes
 
-## [6.1.0] (IN PROGRESS)
+## (IN PROGRESS)
+
+## [6.1.0] (https://github.com/folio-org/ui-notes/tree/v6.1.0) (2022-03-03)
+[Full Changelog](https://github.com/folio-org/ui-notes/compare/v6.0.1...v6.1.0)
 
 * Refactor '.all' permissions. (UINOTES-112)
 
-## [6.0.1] (https://github.com/folio-org/ui-notes/tree/v6.0.1) (2020-11-09)
+## [6.0.1] (https://github.com/folio-org/ui-notes/tree/v6.0.1) (2021-11-09)
 
 * Settings > Notes > Note types : Cannot add or edit a note type. (UINOTES-115)
 
-## [6.0.0] (https://github.com/folio-org/ui-notes/tree/v6.0.0) (2020-10-01)
+## [6.0.0] (https://github.com/folio-org/ui-notes/tree/v6.0.0) (2021-10-01)
 
 * Compile Translation Files into AST Format (UINOTES-105).
 * Update stripes v7 and react v17. (UINOTES-110).
 
-## [5.0.0] (https://github.com/folio-org/ui-notes/tree/v5.0.0) (2020-03-04)
+## [5.0.0] (https://github.com/folio-org/ui-notes/tree/v5.0.0) (2021-03-04)
 [Full Changelog](https://github.com/folio-org/ui-notes/compare/v4.0.0...v5.0.0)
 
 * Increment `notes` interface to `2.0`
@@ -60,7 +63,7 @@
 [Full Changelog](https://github.com/folio-org/ui-notes/compare/v1.1.0...v1.2.0)
 
 * Fixed security vulnerabilities (UINOTES-28)
-* Made permissions' names more user-friendly 
+* Made permissions' names more user-friendly
 
 ## [1.1.0](https://github.com/folio-org/ui-notes/tree/v1.1.0) (2019-06-11)
 [Full Changelog](https://github.com/folio-org/ui-notes/compare/v1.0.0...v1.1.0)
@@ -71,7 +74,7 @@
 
 ## [1.0.0](https://github.com/folio-org/ui-notes/tree/v1.0.0) (2019-05-08)
 
-* New app created 
+* New app created
 * Added project configs for linting, Jenkins, browser, git and etc.
 * Added note types settings (UINOTES-11).
 * Defined UI permissions
