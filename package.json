@@ -16,7 +16,8 @@
     "lint": "eslint ./ && stylelint \"src/**/*.css\"",
     "eslint": "eslint ./",
     "stylelint": "stylelint \"src/**/*.css\"",
-    "formatjs-compile": "formatjs compile-folder --ast --format simple ./translations/ui-notes ./translations/ui-notes/compiled"
+    "formatjs-compile": "formatjs compile-folder --ast --format simple ./translations/ui-notes ./translations/ui-notes/compiled",
+    "build-mod-descriptor": "stripes mod descriptor --full --strict | jq '.[]' > module-descriptor.json"
   },
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.10.4",
