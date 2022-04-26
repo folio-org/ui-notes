@@ -1,6 +1,7 @@
 node_modules
 dist/*
 .vscode
+.npmrc
 artifacts
 coverage
 .DS_STORE
