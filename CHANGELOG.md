@@ -3,6 +3,7 @@
 ## (IN PROGRESS)
 
 * ui-notes: Configure GitHub actions. (UINOTES-120)
+* Replace `babel-eslint` with `@babel/eslint-parser`. (UINOTES-125)
 
 ## [6.1.0] (https://github.com/folio-org/ui-notes/tree/v6.1.0) (2022-03-03)
 [Full Changelog](https://github.com/folio-org/ui-notes/compare/v6.0.1...v6.1.0)
