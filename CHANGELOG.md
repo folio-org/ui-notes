@@ -1,6 +1,7 @@
 # Change history for ui-notes
 
-## (IN PROGRESS)
+## [6.2.0] (https://github.com/folio-org/ui-notes/tree/v6.2.0) (2022-06-20)
+[Full Changelog](https://github.com/folio-org/ui-notes/compare/v6.1.0...v6.2.0)
 
 * ui-notes: Configure GitHub actions. (UINOTES-120)
 * Replace `babel-eslint` with `@babel/eslint-parser`. (UINOTES-125)
