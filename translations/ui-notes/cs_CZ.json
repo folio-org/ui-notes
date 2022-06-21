@@ -8,10 +8,10 @@
     "settings.general": "General",
     "permission.module.notes.enabled": "UI: ui-notes module is enabled",
     "permission.notes.enabled": "Settings (Notes): Edit and View General settings",
-    "permission.item.view": "Notes: Can view a note",
-    "permission.item.create": "Notes: Can create a note",
-    "permission.item.edit": "Notes: Can edit a note",
-    "permission.item.delete": "Notes: Can delete a note",
-    "permission.item.assign-unassign": "Notes: Can assign and unassign a note",
+    "permission.item.view": "Poznámky: Může zobrazit poznámku",
+    "permission.item.create": "Poznámky: Může vytvořit poznámku",
+    "permission.item.edit": "Poznámky: Může upravit poznámku",
+    "permission.item.delete": "Poznámky: Může smazat poznámku",
+    "permission.item.assign-unassign": "Poznámky: Může přiřadit a zrušit přiřazení poznámky",
     "settings.maxAmount": "Maximum # of note types allowed is {amount}."
 }
