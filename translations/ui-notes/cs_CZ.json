@@ -1,9 +1,9 @@
 {
-    "settings.index.paneTitle": "Notes",
+    "settings.index.paneTitle": "Poznámky",
     "settings.noteTypes": "Typy poznámek",
     "settings.noteType": "Typ poznámky",
     "settings.notes": "Poznámky",
-    "settings.duplicated": "{field} duplicated",
+    "settings.duplicated": "{field} duplikováno",
     "meta.title": "Notes",
     "settings.general": "Obecné",
     "permission.module.notes.enabled": "UI: ui-notes module is enabled",
@@ -13,5 +13,5 @@
     "permission.item.edit": "Poznámky: Může upravit poznámku",
     "permission.item.delete": "Poznámky: Může smazat poznámku",
     "permission.item.assign-unassign": "Poznámky: Může přiřadit a zrušit přiřazení poznámky",
-    "settings.maxAmount": "Maximum # of note types allowed is {amount}."
+    "settings.maxAmount": "Maximální počet povolených typů poznámek je {amount}."
 }
