@@ -67,7 +67,7 @@
     "displayName": "ui-notes.meta.title",
     "route": "/notes",
     "okapiInterfaces": {
-      "notes": "2.0"
+      "notes": "3.0"
     },
     "queryResource": "query",
     "permissionSets": [
