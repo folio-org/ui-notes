@@ -25,8 +25,7 @@ const NoteTypesSettings = ({ stripes }) => {
     return validate(item, index, items, 'name', label);
   };
 
-  const suppressDelete = noteType => get(noteType, 'usage.isAssigned');
-
+  const suppressDelete = noteType => get(noteType, 'usage.noteTotal') > 0;
   const suppressEdit = () => false;
 
   return (
@@ -39,7 +38,8 @@ const NoteTypesSettings = ({ stripes }) => {
       labelSingular={label}
       objectLabel={<FormattedMessage id="ui-notes.settings.notes" />}
       visibleFields={['name']}
-      hiddenFields={['lastUpdated', 'numberOfObjects']}
+      hiddenFields={['lastUpdated']}
+      formatter={{ 'numberOfObjects': (item) => get(item, 'usage.noteTotal') }}
       actionSuppressor={{
         edit: suppressEdit,
         delete: suppressDelete
