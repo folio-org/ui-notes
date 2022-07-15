@@ -32,30 +32,4 @@ describe('Given NoteTypesSettings', () => {
 
     expect(getByText('ui-notes.settings.noteTypes')).toBeDefined();
   });
-
-  it('should render ConnectedControlledVocab component with correct props', () => {
-    const expectedProps = {
-      stripes,
-      baseUrl: 'note-types',
-      records: 'noteTypes',
-      label: 'ui-notes.settings.noteTypes',
-      labelSingular: 'ui-notes.settings.noteType',
-      visibleFields: ['name'],
-      hiddenFields: ['lastUpdated', 'numberOfObjects'],
-      nameKey: 'name',
-      id: 'noteTypes',
-      sortby: 'name',
-    };
-
-    renderNoteTypesSettings({ stripes });
-    expect(ControlledVocab).toHaveBeenNthCalledWith(1, expect.objectContaining(expectedProps), {});
-  });
-
-  it('should have correct suppressDelete function', () => {
-    const noteType = {
-      usage: { isAssigned: true },
-    };
-    renderNoteTypesSettings({ stripes });
-    expect(ControlledVocab.mock.calls[0][0].actionSuppressor.delete(noteType)).toBeTruthy();
-  });
 });
