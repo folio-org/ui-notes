@@ -1,5 +1,9 @@
 # Change history for ui-notes
 
+## [7.0.0] (IN PROGRESS)
+
+* Settings > Notes > General > Note types - Remove # of notes column. (UINOTES-132)
+
 ## [6.2.0] (https://github.com/folio-org/ui-notes/tree/v6.2.0) (2022-06-20)
 [Full Changelog](https://github.com/folio-org/ui-notes/compare/v6.1.0...v6.2.0)
 
