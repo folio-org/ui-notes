@@ -37,6 +37,11 @@ const NoteTypesSettings = ({ stripes }) => {
       validate={validateName}
       label={formatMessage({ id: 'ui-notes.settings.noteTypes' })}
       labelSingular={label}
+      translations={{
+        deleteEntry: 'ui-notes.settings.noteTypes.deleteEntry',
+        termDeleted: 'ui-notes.settings.noteTypes.termDeleted',
+        termWillBeDeleted: 'ui-notes.settings.noteTypes.termWillBeDeleted',
+      }}
       objectLabel={<FormattedMessage id="ui-notes.settings.notes" />}
       visibleFields={['name']}
       hiddenFields={['lastUpdated', 'numberOfObjects']}
