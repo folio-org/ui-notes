@@ -36,7 +36,6 @@ const NoteTypesSettings = ({ stripes }) => {
       records="noteTypes"
       validate={validateName}
       label={formatMessage({ id: 'ui-notes.settings.noteTypes' })}
-      labelSingular={label}
       translations={{
         deleteEntry: 'ui-notes.settings.noteTypes.deleteEntry',
         termDeleted: 'ui-notes.settings.noteTypes.termDeleted',
