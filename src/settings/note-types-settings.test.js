@@ -39,7 +39,11 @@ describe('Given NoteTypesSettings', () => {
       baseUrl: 'note-types',
       records: 'noteTypes',
       label: 'ui-notes.settings.noteTypes',
-      labelSingular: 'ui-notes.settings.noteType',
+      translations: {
+        deleteEntry: 'ui-notes.settings.noteTypes.deleteEntry',
+        termDeleted: 'ui-notes.settings.noteTypes.termDeleted',
+        termWillBeDeleted: 'ui-notes.settings.noteTypes.termWillBeDeleted',
+      },
       visibleFields: ['name'],
       hiddenFields: ['lastUpdated', 'numberOfObjects'],
       nameKey: 'name',
