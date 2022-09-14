@@ -1,7 +1,6 @@
 {
     "settings.index.paneTitle": "ノート",
     "settings.noteTypes": "ノートタイプ",
-    "settings.noteType": "ノートタイプ",
     "settings.notes": "ノート",
     "settings.duplicated": "{field} duplicated",
     "meta.title": "ノート",
@@ -13,5 +12,8 @@
     "permission.item.edit": "Notes: Can edit a note",
     "permission.item.delete": "Notes: Can delete a note",
     "permission.item.assign-unassign": "Notes: Can assign and unassign a note",
-    "settings.maxAmount": "Maximum # of note types allowed is {amount}."
+    "settings.maxAmount": "Maximum # of note types allowed is {amount}.",
+    "settings.noteTypes.deleteEntry": "Delete note type",
+    "settings.noteTypes.termDeleted": "The note type <b>{term}</b> was successfully <b>deleted</b>",
+    "settings.noteTypes.termWillBeDeleted": "The note type <b>{term}</b> will be <b>deleted.</b>"
 }

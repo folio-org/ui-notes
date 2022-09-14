@@ -1,7 +1,6 @@
 {
     "settings.index.paneTitle": "Uwagi",
     "settings.noteTypes": "Typy uwag",
-    "settings.noteType": "Typ uwagi",
     "settings.notes": "Uwagi",
     "settings.duplicated": "{field} powielone",
     "meta.title": "Uwagi",
@@ -13,5 +12,8 @@
     "permission.item.edit": "Uwagi: Może edytować uwagę",
     "permission.item.delete": "Uwagi: Może usunąć uwagę",
     "permission.item.assign-unassign": "Uwagi: Może przypisać i cofnąć przypisanie uwagi",
-    "settings.maxAmount": "Maksymalna liczba typów uwag to {amount}."
+    "settings.maxAmount": "Maksymalna liczba typów uwag to {amount}.",
+    "settings.noteTypes.deleteEntry": "Delete note type",
+    "settings.noteTypes.termDeleted": "The note type <b>{term}</b> was successfully <b>deleted</b>",
+    "settings.noteTypes.termWillBeDeleted": "The note type <b>{term}</b> will be <b>deleted.</b>"
 }

@@ -1,7 +1,6 @@
 {
     "settings.index.paneTitle": "ملاحظات",
     "settings.noteTypes": "أنواع الملاحظات",
-    "settings.noteType": "نوع الملاحظة",
     "settings.notes": "ملاحظات",
     "settings.duplicated": "{field} مكرر",
     "meta.title": "ملاحظات",
@@ -13,5 +12,8 @@
     "permission.item.edit": "ملاحظات: إمكانية تحرير ملاحظة",
     "permission.item.delete": "ملاحظات: إمكانية حذف ملاحظة",
     "permission.item.assign-unassign": "ملاحظات: إمكانية تعيين وإلغاء تعيين ملاحظة",
-    "settings.maxAmount": "الحد الأقصى لعدد أنواع الملاحظات المسموح بها هو {amount}."
+    "settings.maxAmount": "الحد الأقصى لعدد أنواع الملاحظات المسموح بها هو {amount}.",
+    "settings.noteTypes.deleteEntry": "حذف نوع الملاحظة",
+    "settings.noteTypes.termDeleted": "The note type <b>{term}</b> was successfully <b>deleted</b>",
+    "settings.noteTypes.termWillBeDeleted": "The note type <b>{term}</b> will be <b>deleted.</b>"
 }

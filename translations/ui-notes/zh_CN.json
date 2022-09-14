@@ -1,7 +1,6 @@
 {
     "settings.index.paneTitle": "附注",
     "settings.noteTypes": "附注类型",
-    "settings.noteType": "附注类型",
     "settings.notes": "附注",
     "settings.duplicated": "{field}重复",
     "meta.title": "附注",
@@ -13,5 +12,8 @@
     "permission.item.edit": "附注：可以编辑附注",
     "permission.item.delete": "附注：可以删除附注",
     "permission.item.assign-unassign": "附注：可以分配和取消分配附注",
-    "settings.maxAmount": "允许的最大附注类型数为{amount} 。"
+    "settings.maxAmount": "允许的最大附注类型数为{amount} 。",
+    "settings.noteTypes.deleteEntry": "Delete note type",
+    "settings.noteTypes.termDeleted": "The note type <b>{term}</b> was successfully <b>deleted</b>",
+    "settings.noteTypes.termWillBeDeleted": "The note type <b>{term}</b> will be <b>deleted.</b>"
 }

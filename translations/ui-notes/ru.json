@@ -1,7 +1,6 @@
 {
     "settings.index.paneTitle": "Notes",
     "settings.noteTypes": "Note types",
-    "settings.noteType": "Note type",
     "settings.notes": "Notes",
     "settings.duplicated": "{field} duplicated",
     "meta.title": "Notes",
@@ -13,5 +12,8 @@
     "permission.item.edit": "Примечания: можно редактировать примечание",
     "permission.item.delete": "Примечания: можно удалить заметку",
     "permission.item.assign-unassign": "Примечания: можно разместить заметку и отменить размещение заметки",
-    "settings.maxAmount": "Maximum # of note types allowed is {amount}."
+    "settings.maxAmount": "Maximum # of note types allowed is {amount}.",
+    "settings.noteTypes.deleteEntry": "Delete note type",
+    "settings.noteTypes.termDeleted": "The note type <b>{term}</b> was successfully <b>deleted</b>",
+    "settings.noteTypes.termWillBeDeleted": "The note type <b>{term}</b> will be <b>deleted.</b>"
 }
