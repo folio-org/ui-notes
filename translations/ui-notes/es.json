@@ -1,7 +1,6 @@
 {
     "settings.index.paneTitle": "Notas",
     "settings.noteTypes": "Tipos de notas",
-    "settings.noteType": "Tipo de nota",
     "settings.notes": "Notas",
     "settings.duplicated": "{field} duplicado",
     "meta.title": "Notas",
@@ -13,5 +12,8 @@
     "permission.item.edit": "Notas: Puede editar una nota",
     "permission.item.delete": "Notas: Puede eliminar una nota",
     "permission.item.assign-unassign": "Notas: Puede asignar y desasignar una nota",
-    "settings.maxAmount": "Maximum # of note types allowed is {amount}."
+    "settings.maxAmount": "Maximum # of note types allowed is {amount}.",
+    "settings.noteTypes.deleteEntry": "Delete note type",
+    "settings.noteTypes.termDeleted": "The note type <b>{term}</b> was successfully <b>deleted</b>",
+    "settings.noteTypes.termWillBeDeleted": "The note type <b>{term}</b> will be <b>deleted.</b>"
 }

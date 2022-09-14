@@ -1,7 +1,6 @@
 {
     "settings.index.paneTitle": "Notizen",
     "settings.noteTypes": "Notiztypen",
-    "settings.noteType": "Notiztyp",
     "settings.notes": "Notizen",
     "settings.duplicated": "{field} dupliziert",
     "meta.title": "Notizen",
@@ -13,5 +12,8 @@
     "permission.item.edit": "Notizen: Kann eine Notiz bearbeiten",
     "permission.item.delete": "Notizen: Kann eine Notiz löschen",
     "permission.item.assign-unassign": "Notizen: Kann eine Notiz zuweisen oder entfernen",
-    "settings.maxAmount": "Maximale Anzahl # von zulässigen Notiztypen ist {amount}."
+    "settings.maxAmount": "Maximale Anzahl # von zulässigen Notiztypen ist {amount}.",
+    "settings.noteTypes.deleteEntry": "Delete note type",
+    "settings.noteTypes.termDeleted": "The note type <b>{term}</b> was successfully <b>deleted</b>",
+    "settings.noteTypes.termWillBeDeleted": "The note type <b>{term}</b> will be <b>deleted.</b>"
 }
