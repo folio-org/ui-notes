@@ -2,6 +2,7 @@
   "meta.title": "Notes",  
   "settings.general": "General",
   "settings.index.paneTitle": "Notes",
+  "settings.noteType": "Note type",
   "settings.noteTypes": "Note types",
   "settings.noteTypes.deleteEntry": "Delete note type",
   "settings.noteTypes.termDeleted": "The note type <b>{term}</b> was successfully <b>deleted</b>",
