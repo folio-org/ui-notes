@@ -1,6 +1,7 @@
 # Change history for ui-notes
 
-## [7.0.0] (IN PROGRESS)
+## [7.0.0] (https://github.com/folio-org/ui-notes/tree/v7.0.0) (2022-10-24)
+[Full Changelog](https://github.com/folio-org/ui-notes/compare/v6.2.0...v7.0.0)
 
 * Settings > Notes > General > Note types - Remove # of notes column. (UINOTES-132)
 * NOTES - provide local translations to ControlledVocab. (UINOTES-135)
