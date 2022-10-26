@@ -15,5 +15,6 @@
     "settings.maxAmount": "Maximální počet povolených typů poznámek je {amount}.",
     "settings.noteTypes.deleteEntry": "Smazat typ poznámky",
     "settings.noteTypes.termDeleted": "Typ poznámky <b>{term}</b> byl úspěšně <b>smazán</b>",
-    "settings.noteTypes.termWillBeDeleted": "Typ poznámky <b>{term}</b> bude <b>smazán.</b>"
+    "settings.noteTypes.termWillBeDeleted": "Typ poznámky <b>{term}</b> bude <b>smazán.</b>",
+    "settings.noteType": "Typ poznámky"
 }

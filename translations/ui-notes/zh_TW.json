@@ -12,8 +12,9 @@
     "permission.item.edit": "附注：可以编辑附注",
     "permission.item.delete": "附注：可以删除附注",
     "permission.item.assign-unassign": "附注：可以分配和取消分配附注",
-    "settings.maxAmount": "允许的最大附注类型数为{amount} 。",
+    "settings.maxAmount": "允許的最大附註類型數為{amount} 。",
     "settings.noteTypes.deleteEntry": "Delete note type",
     "settings.noteTypes.termDeleted": "The note type <b>{term}</b> was successfully <b>deleted</b>",
-    "settings.noteTypes.termWillBeDeleted": "The note type <b>{term}</b> will be <b>deleted.</b>"
+    "settings.noteTypes.termWillBeDeleted": "The note type <b>{term}</b> will be <b>deleted.</b>",
+    "settings.noteType": "Note type"
 }

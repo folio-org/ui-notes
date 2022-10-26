@@ -6,14 +6,15 @@
     "meta.title": "Note",
     "settings.general": "Generale",
     "permission.module.notes.enabled": "UI: il modulo ui-notes è abilitato",
-    "permission.notes.enabled": "Impostazioni (Note): Modifica e visualizza le impostazioni generali",
-    "permission.item.view": "Note: può visualizzare una nota",
-    "permission.item.create": "Note: può creare una nota",
-    "permission.item.edit": "Note: può modificare una nota",
-    "permission.item.delete": "Note: può eliminare una nota",
-    "permission.item.assign-unassign": "Note: può assegnare e annullare l'assegnazione di una nota",
+    "permission.notes.enabled": "Impostazioni (Note): modificare e visualizzare le impostazioni generali",
+    "permission.item.view": "Note: visualizzare note",
+    "permission.item.create": "Note: creare note",
+    "permission.item.edit": "Note: modificare note",
+    "permission.item.delete": "Note: eliminare note",
+    "permission.item.assign-unassign": "Note: assegnare e annullare l'assegnazione di note",
     "settings.maxAmount": "Il numero massimo di tipi di nota consentiti è {amount} .",
     "settings.noteTypes.deleteEntry": "Delete note type",
     "settings.noteTypes.termDeleted": "The note type <b>{term}</b> was successfully <b>deleted</b>",
-    "settings.noteTypes.termWillBeDeleted": "The note type <b>{term}</b> will be <b>deleted.</b>"
+    "settings.noteTypes.termWillBeDeleted": "The note type <b>{term}</b> will be <b>deleted.</b>",
+    "settings.noteType": "Note type"
 }

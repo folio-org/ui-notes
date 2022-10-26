@@ -13,7 +13,8 @@
     "permission.item.delete": "Notas: Pode excluir uma nota",
     "permission.item.assign-unassign": "Notas: Pode atribuir e desatribuir uma nota",
     "settings.maxAmount": "O número máximo de tipos de notas permitidos é {amount} .",
-    "settings.noteTypes.deleteEntry": "Delete note type",
-    "settings.noteTypes.termDeleted": "The note type <b>{term}</b> was successfully <b>deleted</b>",
-    "settings.noteTypes.termWillBeDeleted": "The note type <b>{term}</b> will be <b>deleted.</b>"
+    "settings.noteTypes.deleteEntry": "Excluir tipo de nota",
+    "settings.noteTypes.termDeleted": "O tipo de nota <b> {term} </b> foi <b> excluído </b> com sucesso",
+    "settings.noteTypes.termWillBeDeleted": "O tipo de nota <b> {term} </b> será <b> excluído. </b>",
+    "settings.noteType": "Tipo de nota"
 }
