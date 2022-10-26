@@ -15,5 +15,6 @@
     "settings.maxAmount": "Le nombre maximum de types de notes autorisés est de {amount} .",
     "settings.noteTypes.deleteEntry": "Delete note type",
     "settings.noteTypes.termDeleted": "The note type <b>{term}</b> was successfully <b>deleted</b>",
-    "settings.noteTypes.termWillBeDeleted": "The note type <b>{term}</b> will be <b>deleted.</b>"
+    "settings.noteTypes.termWillBeDeleted": "The note type <b>{term}</b> will be <b>deleted.</b>",
+    "settings.noteType": "Note type"
 }
