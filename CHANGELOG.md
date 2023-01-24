@@ -3,6 +3,7 @@
 ## [8.0.0] (https://github.com/folio-org/ui-notes/tree/v8.0.0) (IN PROGRESS)
 
 * bump stripes to 8.0.0 for Orchid/2023-R1. (UINOTES-139)
+* Upgrade react-redux to v8. (UINOTES-140)
 
 ## [7.0.0] (https://github.com/folio-org/ui-notes/tree/v7.0.0) (2022-10-24)
 [Full Changelog](https://github.com/folio-org/ui-notes/compare/v6.2.0...v7.0.0)
