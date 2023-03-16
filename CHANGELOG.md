@@ -1,5 +1,9 @@
 # Change history for ui-notes
 
+## [9.0.0] (https://github.com/folio-org/ui-notes/tree/v9.0.0) (IN PROGRESS)
+
+* Added a permission `Settings (Notes): View General settings`. (UINOTES-141)
+
 ## [8.0.0] (https://github.com/folio-org/ui-notes/tree/v8.0.0) (2023-02-14)
 [Full Changelog](https://github.com/folio-org/ui-notes/compare/v7.0.0...v8.0.0)
 
