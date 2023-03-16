@@ -12,6 +12,7 @@ import { validate } from '../util';
 const propTypes = {
   stripes: PropTypes.shape({
     connect: PropTypes.func.isRequired,
+    hasPerm: PropTypes.func.isRequired,
   }).isRequired,
 };
 
@@ -24,10 +25,13 @@ const NoteTypesSettings = ({ stripes }) => {
   const validateName = (item, index, items) => {
     return validate(item, index, items, 'name', label);
   };
+  const canEdit = stripes.hasPerm('ui-notes.settings.enabled');
 
-  const suppressDelete = noteType => get(noteType, 'usage.isAssigned');
+  const suppressDelete = noteType => {
+    return !canEdit || get(noteType, 'usage.isAssigned');
+  };
 
-  const suppressEdit = () => false;
+  const suppressEdit = () => !canEdit;
 
   return (
     <ConnectedControlledVocab
@@ -51,6 +55,7 @@ const NoteTypesSettings = ({ stripes }) => {
       columnMapping={{
         name: label
       }}
+      canCreate={canEdit}
       nameKey="name"
       id="noteTypes"
       sortby="name"

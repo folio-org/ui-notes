@@ -13,6 +13,7 @@
 
   "permission.module.notes.enabled": "UI: ui-notes module is enabled",
   "permission.notes.enabled": "Settings (Notes): Edit and View General settings",
+  "permission.notes.view": "Settings (Notes): View General settings",
   "permission.item.view": "Notes: Can view a note",
   "permission.item.create": "Notes: Can create a note",
   "permission.item.edit": "Notes: Can edit a note",
