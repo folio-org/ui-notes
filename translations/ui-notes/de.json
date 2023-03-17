@@ -16,5 +16,6 @@
     "settings.noteTypes.deleteEntry": "Notiztyp löschen",
     "settings.noteTypes.termDeleted": "Der Notiztyp <b> {term} </b> wurde erfolgreich <b> gelöscht </b>",
     "settings.noteTypes.termWillBeDeleted": "Der Notiztyp <b> {term} </b> wird <b> gelöscht. </b>",
-    "settings.noteType": "Notiztyp"
+    "settings.noteType": "Notiztyp",
+    "permission.notes.view": "Settings (Notes): View General settings"
 }

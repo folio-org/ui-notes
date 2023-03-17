@@ -16,5 +16,6 @@
     "settings.noteTypes.deleteEntry": "Excluir tipo de nota",
     "settings.noteTypes.termDeleted": "O tipo de nota <b> {term} </b> foi <b> excluído </b> com sucesso",
     "settings.noteTypes.termWillBeDeleted": "O tipo de nota <b> {term} </b> será <b> excluído. </b>",
-    "settings.noteType": "Tipo de nota"
+    "settings.noteType": "Tipo de nota",
+    "permission.notes.view": "Settings (Notes): View General settings"
 }

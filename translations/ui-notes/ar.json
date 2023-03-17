@@ -16,5 +16,6 @@
     "settings.noteTypes.deleteEntry": "حذف نوع الملاحظة",
     "settings.noteTypes.termDeleted": "The note type <b>{term}</b> was successfully <b>deleted</b>",
     "settings.noteTypes.termWillBeDeleted": "The note type <b>{term}</b> will be <b>deleted.</b>",
-    "settings.noteType": "Note type"
+    "settings.noteType": "Note type",
+    "permission.notes.view": "Settings (Notes): View General settings"
 }
