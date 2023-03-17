@@ -16,5 +16,6 @@
     "settings.noteTypes.deleteEntry": "删除附注类型",
     "settings.noteTypes.termDeleted": "附注类型<b>{term}</b>已成功<b>删除</b>",
     "settings.noteTypes.termWillBeDeleted": "附注类型<b> {term} </b>将被<b>删除。 </b>",
-    "settings.noteType": "附注类型"
+    "settings.noteType": "附注类型",
+    "permission.notes.view": "Settings (Notes): View General settings"
 }
