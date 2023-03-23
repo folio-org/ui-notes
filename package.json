@@ -80,13 +80,11 @@
         "permissionName": "settings.notes.enabled",
         "visible": false,
         "subPermissions": [
-          "settings.enabled",
-          "note.types.item.get",
-          "note.types.collection.get"
+          "settings.enabled"
         ]
       },
       {
-        "permissionName": "ui-notes.settings.enabled",
+        "permissionName": "ui-notes.settings.edit",
         "displayName": "Settings (Notes): Edit and View General settings",
         "subPermissions": [
           "settings.notes.view",
@@ -97,10 +95,12 @@
         "visible": true
       },
       {
-        "permissionName": "settings.notes.view",
+        "permissionName": "ui-notes.settings.view",
         "displayName": "Settings (Notes): View General settings",
         "subPermissions": [
-          "settings.notes.enabled"
+          "settings.notes.enabled",
+          "note.types.item.get",
+          "note.types.collection.get"
         ],
         "visible": true
       },
