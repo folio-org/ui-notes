@@ -25,7 +25,7 @@ const NoteTypesSettings = ({ stripes }) => {
   const validateName = (item, index, items) => {
     return validate(item, index, items, 'name', label);
   };
-  const canEdit = stripes.hasPerm('ui-notes.settings.enabled');
+  const canEdit = stripes.hasPerm('ui-notes.settings.edit');
 
   const suppressDelete = noteType => {
     return !canEdit || get(noteType, 'usage.isAssigned');
