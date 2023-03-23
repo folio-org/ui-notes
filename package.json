@@ -78,11 +78,16 @@
       },
       {
         "permissionName": "settings.notes.enabled",
+        "visible": false,
+        "subPermissions": [
+          "settings.enabled"
+        ]
+      },
+      {
+        "permissionName": "ui-notes.settings.edit",
         "displayName": "Settings (Notes): Edit and View General settings",
         "subPermissions": [
-          "settings.enabled",
-          "note.types.item.get",
-          "note.types.collection.get",
+          "settings.notes.view",
           "note.types.item.post",
           "note.types.item.put",
           "note.types.item.delete"
@@ -90,10 +95,10 @@
         "visible": true
       },
       {
-        "permissionName": "settings.notes.view",
+        "permissionName": "ui-notes.settings.view",
         "displayName": "Settings (Notes): View General settings",
         "subPermissions": [
-          "settings.enabled",
+          "settings.notes.enabled",
           "note.types.item.get",
           "note.types.collection.get"
         ],
