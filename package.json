@@ -87,6 +87,7 @@
         "permissionName": "ui-notes.settings.edit",
         "displayName": "Settings (Notes): Edit and View General settings",
         "subPermissions": [
+          "settings.notes.enabled",
           "settings.notes.view",
           "note.types.item.post",
           "note.types.item.put",
