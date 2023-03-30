@@ -91,7 +91,9 @@
           "settings.notes.view",
           "note.types.item.post",
           "note.types.item.put",
-          "note.types.item.delete"
+          "note.types.item.delete",
+          "note.types.item.get",
+          "note.types.collection.get"
         ],
         "visible": true
       },
