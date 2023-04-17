@@ -6,7 +6,6 @@
     "meta.title": "Poznámky",
     "settings.general": "Obecné",
     "permission.module.notes.enabled": "UI: modul ui-notes je povolen",
-    "permission.notes.enabled": "Nastavení (Poznámky): Upravit a zobrazit obecná nastavení",
     "permission.item.view": "Poznámky: Může zobrazit poznámku",
     "permission.item.create": "Poznámky: Může vytvořit poznámku",
     "permission.item.edit": "Poznámky: Může upravit poznámku",
@@ -17,5 +16,6 @@
     "settings.noteTypes.termDeleted": "Typ poznámky <b>{term}</b> byl úspěšně <b>smazán</b>",
     "settings.noteTypes.termWillBeDeleted": "Typ poznámky <b>{term}</b> bude <b>smazán.</b>",
     "settings.noteType": "Typ poznámky",
-    "permission.notes.view": "Nastavení (Poznámky): Zobrazení Obecných nastavení"
+    "permission.settings.edit": "Nastavení (Poznámky): Upravit a zobrazit obecná nastavení",
+    "permission.settings.view": "Nastavení (Poznámky): Zobrazení Obecných nastavení"
 }
