@@ -6,7 +6,6 @@
     "meta.title": "Commentaires",
     "settings.general": "Général",
     "permission.module.notes.enabled": "UI: ui-notes module is enabled",
-    "permission.notes.enabled": "Paramètres (Notes): Modifier et afficher les paramètres généraux",
     "permission.item.view": "Notes: peut afficher une note",
     "permission.item.create": "Notes: peut créer une note",
     "permission.item.edit": "Notes: peut modifier une note",
@@ -17,5 +16,6 @@
     "settings.noteTypes.termDeleted": "The note type <b>{term}</b> was successfully <b>deleted</b>",
     "settings.noteTypes.termWillBeDeleted": "The note type <b>{term}</b> will be <b>deleted.</b>",
     "settings.noteType": "Note type",
-    "permission.notes.view": "Settings (Notes): View General settings"
+    "permission.settings.edit": "Settings (Notes): Edit and View General settings",
+    "permission.settings.view": "Settings (Notes): View General settings"
 }

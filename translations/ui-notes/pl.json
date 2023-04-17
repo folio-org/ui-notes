@@ -6,7 +6,6 @@
     "meta.title": "Uwagi",
     "settings.general": "Ogólne",
     "permission.module.notes.enabled": "UI: moduł ui-notes jest włączony",
-    "permission.notes.enabled": "Ustawienia (uwagi): wyświetlanie listy stron ustawień",
     "permission.item.view": "Uwagi: Może wyświetlać uwagę",
     "permission.item.create": "Uwagi: Może tworzyć uwagi",
     "permission.item.edit": "Uwagi: Może edytować uwagę",
@@ -17,5 +16,6 @@
     "settings.noteTypes.termDeleted": "The note type <b>{term}</b> was successfully <b>deleted</b>",
     "settings.noteTypes.termWillBeDeleted": "The note type <b>{term}</b> will be <b>deleted.</b>",
     "settings.noteType": "Note type",
-    "permission.notes.view": "Settings (Notes): View General settings"
+    "permission.settings.edit": "Settings (Notes): Edit and View General settings",
+    "permission.settings.view": "Settings (Notes): View General settings"
 }

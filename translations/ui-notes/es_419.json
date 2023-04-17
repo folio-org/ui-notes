@@ -6,7 +6,6 @@
     "meta.title": "Notas",
     "settings.general": "General",
     "permission.module.notes.enabled": "UI: modulo ui-notas  está habilitado",
-    "permission.notes.enabled": "Configuración (notas): muestra la lista de páginas de configuración",
     "permission.item.view": "Notas: Puede ver una nota",
     "permission.item.create": "Notas: Puede crear una nota",
     "permission.item.edit": "Notas: Puede editar una nota",
@@ -17,5 +16,6 @@
     "settings.noteTypes.termDeleted": "El tipo de nota <b>{term}</b> se ha <b>eliminado</b> correctamente",
     "settings.noteTypes.termWillBeDeleted": "Se <b>eliminará</b> el tipo de nota <b>{term}</b> <b>.</b>",
     "settings.noteType": "Tipo Nota",
-    "permission.notes.view": "Ajustes (Notas): Ver ajustes generales"
+    "permission.settings.edit": "Ajustes (Notas): Editar y ver la configuración general",
+    "permission.settings.view": "Ajustes (Notas): Ver ajustes generales"
 }

@@ -6,7 +6,6 @@
     "meta.title": "Notes",
     "settings.general": "Общие",
     "permission.module.notes.enabled": "Интерфейс пользователя: модуль ui-notes включён",
-    "permission.notes.enabled": "Настройки (заметки): отображение списка страниц с настройками",
     "permission.item.view": "Примечания: можно просмотреть заметку",
     "permission.item.create": "Примечания: можно создать заметку",
     "permission.item.edit": "Примечания: можно редактировать примечание",
@@ -17,5 +16,6 @@
     "settings.noteTypes.termDeleted": "The note type <b>{term}</b> was successfully <b>deleted</b>",
     "settings.noteTypes.termWillBeDeleted": "The note type <b>{term}</b> will be <b>deleted.</b>",
     "settings.noteType": "Note type",
-    "permission.notes.view": "Settings (Notes): View General settings"
+    "permission.settings.edit": "Settings (Notes): Edit and View General settings",
+    "permission.settings.view": "Settings (Notes): View General settings"
 }

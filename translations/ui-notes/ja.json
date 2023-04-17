@@ -6,7 +6,6 @@
     "meta.title": "ノート",
     "settings.general": "一般",
     "permission.module.notes.enabled": "UI: ui-notes module is enabled",
-    "permission.notes.enabled": "Settings (Notes): Edit and View General settings",
     "permission.item.view": "Notes: Can view a note",
     "permission.item.create": "Notes: Can create a note",
     "permission.item.edit": "Notes: Can edit a note",
@@ -17,5 +16,6 @@
     "settings.noteTypes.termDeleted": "The note type <b>{term}</b> was successfully <b>deleted</b>",
     "settings.noteTypes.termWillBeDeleted": "The note type <b>{term}</b> will be <b>deleted.</b>",
     "settings.noteType": "ノートタイプ",
-    "permission.notes.view": "設定 (ノート): 一般設定の表示"
+    "permission.settings.edit": "Settings (Notes): Edit and View General settings",
+    "permission.settings.view": "Settings (Notes): View General settings"
 }

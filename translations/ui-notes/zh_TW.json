@@ -6,7 +6,6 @@
     "meta.title": "附註",
     "settings.general": "一般",
     "permission.module.notes.enabled": "UI：启用了ui-附注模块",
-    "permission.notes.enabled": "设置（附注）：编辑和查看通用设置",
     "permission.item.view": "附注：可以查看附注",
     "permission.item.create": "附注：可以创建附注",
     "permission.item.edit": "附注：可以编辑附注",
@@ -17,5 +16,6 @@
     "settings.noteTypes.termDeleted": "The note type <b>{term}</b> was successfully <b>deleted</b>",
     "settings.noteTypes.termWillBeDeleted": "The note type <b>{term}</b> will be <b>deleted.</b>",
     "settings.noteType": "Note type",
-    "permission.notes.view": "Settings (Notes): View General settings"
+    "permission.settings.edit": "Settings (Notes): Edit and View General settings",
+    "permission.settings.view": "Settings (Notes): View General settings"
 }

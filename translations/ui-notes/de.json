@@ -6,7 +6,6 @@
     "meta.title": "Notizen",
     "settings.general": "Allgemein",
     "permission.module.notes.enabled": "UI: ui-Notizen Modul ist aktiviert",
-    "permission.notes.enabled": "Einstellungen (Notizen): Liste der Einstellungsseiten anzeigen",
     "permission.item.view": "Notizen: Kann eine Notiz anzeigen",
     "permission.item.create": "Notizen: Kann eine Notiz erstellen",
     "permission.item.edit": "Notizen: Kann eine Notiz bearbeiten",
@@ -17,5 +16,6 @@
     "settings.noteTypes.termDeleted": "Der Notiztyp <b> {term} </b> wurde erfolgreich <b> gelöscht </b>",
     "settings.noteTypes.termWillBeDeleted": "Der Notiztyp <b> {term} </b> wird <b> gelöscht. </b>",
     "settings.noteType": "Notiztyp",
-    "permission.notes.view": "Settings (Notes): View General settings"
+    "permission.settings.edit": "Settings (Notes): Edit and View General settings",
+    "permission.settings.view": "Settings (Notes): View General settings"
 }
