@@ -3,6 +3,7 @@
 ## [9.0.0] (https://github.com/folio-org/ui-notes/tree/v9.0.0) (IN PROGRESS)
 
 * Added a permission `Settings (Notes): View General settings`. (UINOTES-141)
+* Update Node.js to v18 in GitHub Actions. (UINOTES-147)
 
 ## [8.0.0] (https://github.com/folio-org/ui-notes/tree/v8.0.0) (2023-02-14)
 [Full Changelog](https://github.com/folio-org/ui-notes/compare/v7.0.0...v8.0.0)
