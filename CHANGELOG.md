@@ -5,6 +5,7 @@
 * Added a permission `Settings (Notes): View General settings`. (UINOTES-141)
 * Update Node.js to v18 in GitHub Actions. (UINOTES-147)
 * *BREAKING* Bump `react` to `v18`. (UINOTES-146)
+* *BREAKING* bump `react-intl` to `v6.4.4`. (UINOTES-148)
 
 ## [8.0.0] (https://github.com/folio-org/ui-notes/tree/v8.0.0) (2023-02-14)
 [Full Changelog](https://github.com/folio-org/ui-notes/compare/v7.0.0...v8.0.0)
