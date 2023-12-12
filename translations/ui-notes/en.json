@@ -1,5 +1,5 @@
 {
-  "meta.title": "Notes",  
+  "meta.title": "Notes",
   "settings.general": "General",
   "settings.index.paneTitle": "Notes",
   "settings.noteType": "Note type",
@@ -10,6 +10,7 @@
   "settings.notes": "Notes",
   "settings.duplicated": "{field} duplicated",
   "settings.maxAmount": "Maximum # of note types allowed is {amount}.",
+  "settings.label": "Notes settings",
 
   "permission.module.notes.enabled": "UI: ui-notes module is enabled",
   "permission.settings.edit": "Settings (Notes): Edit and View General settings",

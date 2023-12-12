@@ -1,6 +1,7 @@
 import React from 'react';
 import { render } from '@folio/jest-config-stripes/testing-library/react';
 
+import { TitleManager } from '@folio/stripes/core';
 import { Settings } from '@folio/stripes/smart-components';
 
 import Notes from './notes';
@@ -10,7 +11,7 @@ const route = 'general';
 const labelId = 'ui-notes.settings.general';
 
 const renderNotes = ({
-  location = {},
+  location = { pathname: '/' },
   match = {},
   stripes = {},
 } = {}) => (render(
@@ -43,5 +44,20 @@ describe('Given Notes Settings', () => {
 
     expect(getByText(route)).toBeDefined();
     expect(getByText(labelId)).toBeDefined();
+  });
+
+  describe('when user is on any setting page', () => {
+    it('should display correct HTML page title', () => {
+      renderNotes({
+        location: {
+          pathname: '/settings/notes/general',
+        },
+      });
+
+      expect(TitleManager).toHaveBeenCalledWith(expect.objectContaining({
+        page: 'ui-notes.settings.label',
+        record: 'ui-notes.settings.general'
+      }), {});
+    });
   });
 });
