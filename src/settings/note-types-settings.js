@@ -6,6 +6,7 @@ import {
 } from 'react-intl';
 import { get } from 'lodash';
 
+import { TitleManager } from '@folio/stripes/core';
 import { ControlledVocab } from '@folio/stripes/smart-components';
 import { validate } from '../util';
 
@@ -20,6 +21,7 @@ const NoteTypesSettings = ({ stripes }) => {
   const { formatMessage } = useIntl();
   const ConnectedControlledVocab = stripes.connect(ControlledVocab);
 
+  const paneTitle = formatMessage({ id: 'ui-notes.settings.noteTypes' });
   const label = formatMessage({ id: 'ui-notes.settings.noteType' });
 
   const validateName = (item, index, items) => {
@@ -34,32 +36,34 @@ const NoteTypesSettings = ({ stripes }) => {
   const suppressEdit = () => !canEdit;
 
   return (
-    <ConnectedControlledVocab
-      stripes={stripes}
-      baseUrl="note-types"
-      records="noteTypes"
-      validate={validateName}
-      label={formatMessage({ id: 'ui-notes.settings.noteTypes' })}
-      translations={{
-        deleteEntry: 'ui-notes.settings.noteTypes.deleteEntry',
-        termDeleted: 'ui-notes.settings.noteTypes.termDeleted',
-        termWillBeDeleted: 'ui-notes.settings.noteTypes.termWillBeDeleted',
-      }}
-      objectLabel={<FormattedMessage id="ui-notes.settings.notes" />}
-      visibleFields={['name']}
-      hiddenFields={['lastUpdated', 'numberOfObjects']}
-      actionSuppressor={{
-        edit: suppressEdit,
-        delete: suppressDelete
-      }}
-      columnMapping={{
-        name: label
-      }}
-      canCreate={canEdit}
-      nameKey="name"
-      id="noteTypes"
-      sortby="name"
-    />
+    <TitleManager record={paneTitle}>
+      <ConnectedControlledVocab
+        stripes={stripes}
+        baseUrl="note-types"
+        records="noteTypes"
+        validate={validateName}
+        label={paneTitle}
+        translations={{
+          deleteEntry: 'ui-notes.settings.noteTypes.deleteEntry',
+          termDeleted: 'ui-notes.settings.noteTypes.termDeleted',
+          termWillBeDeleted: 'ui-notes.settings.noteTypes.termWillBeDeleted',
+        }}
+        objectLabel={<FormattedMessage id="ui-notes.settings.notes" />}
+        visibleFields={['name']}
+        hiddenFields={['lastUpdated', 'numberOfObjects']}
+        actionSuppressor={{
+          edit: suppressEdit,
+          delete: suppressDelete
+        }}
+        columnMapping={{
+          name: label
+        }}
+        canCreate={canEdit}
+        nameKey="name"
+        id="noteTypes"
+        sortby="name"
+      />
+    </TitleManager>
   );
 };
 
