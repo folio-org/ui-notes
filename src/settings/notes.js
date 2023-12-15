@@ -26,12 +26,9 @@ const Notes = ({
     },
   ];
 
-  const selectedPageLabel = pages.find(page => location.pathname.split('/')[3] === page.route)?.label;
-
   return (
     <TitleManager
       page={intl.formatMessage({ id: 'ui-notes.settings.label' })}
-      record={selectedPageLabel}
     >
       <Settings
         location={location}

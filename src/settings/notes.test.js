@@ -48,15 +48,10 @@ describe('Given Notes Settings', () => {
 
   describe('when user is on any setting page', () => {
     it('should display correct HTML page title', () => {
-      renderNotes({
-        location: {
-          pathname: '/settings/notes/general',
-        },
-      });
+      renderNotes();
 
       expect(TitleManager).toHaveBeenCalledWith(expect.objectContaining({
         page: 'ui-notes.settings.label',
-        record: 'ui-notes.settings.general'
       }), {});
     });
   });

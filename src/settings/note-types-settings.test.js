@@ -1,7 +1,10 @@
 import React from 'react';
 import { render } from '@folio/jest-config-stripes/testing-library/react';
 
-import { useStripes } from '@folio/stripes/core';
+import {
+  TitleManager,
+  useStripes,
+} from '@folio/stripes/core';
 import { ControlledVocab } from '@folio/stripes/smart-components';
 
 import NoteTypesSettings from './note-types-settings';
@@ -61,5 +64,15 @@ describe('Given NoteTypesSettings', () => {
     };
     renderNoteTypesSettings({ stripes });
     expect(ControlledVocab.mock.calls[0][0].actionSuppressor.delete(noteType)).toBeTruthy();
+  });
+
+  describe('when user is on "Note types" page', () => {
+    it('should display correct HTML page title', () => {
+      renderNoteTypesSettings({ stripes });
+
+      expect(TitleManager).toHaveBeenCalledWith(expect.objectContaining({
+        record: 'ui-notes.settings.noteTypes',
+      }), {});
+    });
   });
 });
