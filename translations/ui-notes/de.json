@@ -17,5 +17,6 @@
     "settings.noteTypes.termWillBeDeleted": "Der Notiztyp <b> {term} </b> wird <b> gelöscht. </b>",
     "settings.noteType": "Notiztyp",
     "permission.settings.edit": "Einstellungen (Notizen): Liste der Einstellungsseiten anzeigen",
-    "permission.settings.view": "Einstellungen (Notizen): Einstellungsseiten anzeigen"
+    "permission.settings.view": "Einstellungen (Notizen): Einstellungsseiten anzeigen",
+    "settings.label": "Notes settings"
 }

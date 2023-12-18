@@ -17,5 +17,6 @@
     "settings.noteTypes.termWillBeDeleted": "O tipo de nota <b> {term} </b> será <b> excluído. </b>",
     "settings.noteType": "Tipo de nota",
     "permission.settings.edit": "Configurações (notas): Editar e visualizar configurações gerais",
-    "permission.settings.view": "Configurações (Notas): Exibir configurações gerais"
+    "permission.settings.view": "Configurações (Notas): Exibir configurações gerais",
+    "settings.label": "Configurações de notas"
 }
