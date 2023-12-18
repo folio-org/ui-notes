@@ -17,5 +17,6 @@
     "settings.noteTypes.termWillBeDeleted": "Typ poznámky <b>{term}</b> bude <b>smazán.</b>",
     "settings.noteType": "Typ poznámky",
     "permission.settings.edit": "Nastavení (Poznámky): Upravit a zobrazit obecná nastavení",
-    "permission.settings.view": "Nastavení (Poznámky): Zobrazení Obecných nastavení"
+    "permission.settings.view": "Nastavení (Poznámky): Zobrazení Obecných nastavení",
+    "settings.label": "Nastavení poznámek"
 }

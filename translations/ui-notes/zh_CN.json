@@ -17,5 +17,6 @@
     "settings.noteTypes.termWillBeDeleted": "附注类型<b> {term} </b>将被<b>删除。 </b>",
     "settings.noteType": "附注类型",
     "permission.settings.edit": "设置（附注）：编辑和查看通用设置",
-    "permission.settings.view": "设置（附注）：查看通用设置"
+    "permission.settings.view": "设置（附注）：查看通用设置",
+    "settings.label": "Notes settings"
 }

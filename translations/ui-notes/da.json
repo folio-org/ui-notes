@@ -17,5 +17,6 @@
     "settings.noteTypes.termWillBeDeleted": "The note type <b>{term}</b> will be <b>deleted.</b>",
     "settings.noteType": "Note type",
     "permission.settings.edit": "Settings (Notes): Edit and View General settings",
-    "permission.settings.view": "Settings (Notes): View General settings"
+    "permission.settings.view": "Settings (Notes): View General settings",
+    "settings.label": "Notes settings"
 }
