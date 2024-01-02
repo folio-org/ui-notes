@@ -18,5 +18,5 @@
     "settings.noteType": "附注类型",
     "permission.settings.edit": "设置（附注）：编辑和查看通用设置",
     "permission.settings.view": "设置（附注）：查看通用设置",
-    "settings.label": "Notes settings"
+    "settings.label": "附注设置"
 }
