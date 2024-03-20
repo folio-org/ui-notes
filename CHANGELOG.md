@@ -1,8 +1,10 @@
 # Change history for ui-notes
 
-## [9.1.0] IN PROGRESS
+## [9.1.0] (https://github.com/folio-org/ui-notes/tree/v9.1.0) (2024-03-20)
+[Full Changelog](https://github.com/folio-org/ui-notes/compare/v9.0.0...v9.1.0)
 
 * Show selected setting page in the HTML page title. (UINOTES-149)
+* Translation updates
 
 ## [9.0.0] (https://github.com/folio-org/ui-notes/tree/v9.0.0) (2023-10-12)
 [Full Changelog](https://github.com/folio-org/ui-notes/compare/v8.0.0...v9.0.0)
