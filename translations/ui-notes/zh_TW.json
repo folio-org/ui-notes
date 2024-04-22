@@ -16,7 +16,7 @@
     "settings.noteTypes.termDeleted": "附註類型<b>{term}</b> 已成功<b>刪除</b>",
     "settings.noteTypes.termWillBeDeleted": "附註類型<b>{term}</b>將被<b>刪除</b>",
     "settings.noteType": "附註類型",
-    "permission.settings.edit": "Settings (Notes): Edit and View General settings",
+    "permission.settings.edit": "設定（附註）：編輯、檢視一般設定",
     "permission.settings.view": "設定（附註）：檢視一般設定",
     "settings.label": "附註設定"
 }
