@@ -103,8 +103,7 @@
           "note.types.item.get",
           "notes.item.get",
           "notes.collection.get",
-          "notes.collection.get.by.status",
-          "notes.domain.all",
+          "note.links.collection.get",
           "module.notes.enabled"
         ],
         "visible": true
@@ -115,7 +114,6 @@
         "subPermissions": [
           "notes.item.post",
           "note.types.item.post",
-          "notes.domain.all",
           "ui-notes.item.view"
         ],
         "visible": true
@@ -126,7 +124,6 @@
         "subPermissions": [
           "notes.item.put",
           "note.types.item.put",
-          "notes.domain.all",
           "ui-notes.item.view"
         ],
         "visible": true
@@ -137,7 +134,6 @@
         "subPermissions": [
           "notes.item.delete",
           "note.types.item.delete",
-          "notes.domain.all",
           "ui-notes.item.view"
         ],
         "visible": true

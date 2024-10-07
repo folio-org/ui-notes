@@ -1,5 +1,9 @@
 # Change history for ui-notes
 
+## [9.2.0] IN PROGRESS
+
+* Update notes permissions. (UINOTES-154)
+
 ## [9.1.0] (https://github.com/folio-org/ui-notes/tree/v9.1.0) (2024-03-20)
 [Full Changelog](https://github.com/folio-org/ui-notes/compare/v9.0.0...v9.1.0)
 
