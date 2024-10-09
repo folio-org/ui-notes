@@ -1,6 +1,6 @@
 {
   "name": "@folio/notes",
-  "version": "9.1.0",
+  "version": "10.0.0",
   "description": "Note types manager",
   "repository": "",
   "main": "src/index.js",
@@ -55,7 +55,7 @@
     "displayName": "ui-notes.meta.title",
     "route": "/notes",
     "okapiInterfaces": {
-      "notes": "3.0"
+      "notes": "4.0"
     },
     "queryResource": "query",
     "permissionSets": [
