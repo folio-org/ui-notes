@@ -19,5 +19,5 @@
   "permission.item.create": "Notes: Can create a note",
   "permission.item.edit": "Notes: Can edit a note",
   "permission.item.delete": "Notes: Can delete a note",
-  "permission.item.execute": "Notes: Can assign and unassign a note"
+  "permission.item.assign-unassign.execute": "Notes: Can assign and unassign a note"
 }
