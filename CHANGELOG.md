@@ -4,7 +4,7 @@
 
 * *BREAKING* Upgrade `notes` to `4.0`. Change permission `notes.collection.get.by.status` to `note.links.collection.get`. Remove `notes.domain.all` permission. (UINOTES-154)
 * migrate to shared CI workflows. (UINOTES-151)
-* *BREAKING* Rename permissions to match the naming convention. (UINOTES-158)
+* Rename permissions to match the naming convention. (UINOTES-158)
 
 ## [9.1.0] (https://github.com/folio-org/ui-notes/tree/v9.1.0) (2024-03-20)
 [Full Changelog](https://github.com/folio-org/ui-notes/compare/v9.0.0...v9.1.0)
