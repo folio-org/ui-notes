@@ -1,6 +1,7 @@
 # Change history for ui-notes
 
-## [10.0.0] IN PROGRESS
+## [10.0.0] (https://github.com/folio-org/ui-notes/tree/v10.0.0) (2024-10-30)
+[Full Changelog](https://github.com/folio-org/ui-notes/compare/v9.0.0...v10.0.0)
 
 * *BREAKING* Upgrade `notes` to `4.0`. Change permission `notes.collection.get.by.status` to `note.links.collection.get`. Remove `notes.domain.all` permission. (UINOTES-154)
 * migrate to shared CI workflows. (UINOTES-151)
