@@ -139,8 +139,9 @@
         "visible": true
       },
       {
-        "permissionName": "ui-notes.item.assign-unassign",
+        "permissionName": "ui-notes.item.assign-unassign.execute",
         "displayName": "Notes: Can assign and unassign a note",
+        "replaces": ["ui-notes.item.assign-unassign"],
         "subPermissions": [
           "note.links.collection.put",
           "ui-notes.item.view"
