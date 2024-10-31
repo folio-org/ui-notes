@@ -10,7 +10,6 @@
     "permission.item.create": "메모 : 메모를 만들 수 있습니다.",
     "permission.item.edit": "메모 : 메모를 편집할 수 있습니다.",
     "permission.item.delete": "메모 : 메모를 삭제할 수 있습니다.",
-    "permission.item.assign-unassign": "메모 : 메모를 할당 및 할당 해제할 수 있습니다.",
     "settings.maxAmount": "허용되는 최대 메모 유형 수는 {amount} 입니다.",
     "settings.noteTypes.deleteEntry": "Delete note type",
     "settings.noteTypes.termDeleted": "The note type <b>{term}</b> was successfully <b>deleted</b>",
@@ -18,5 +17,6 @@
     "settings.noteType": "Note type",
     "permission.settings.edit": "Settings (Notes): Edit and View General settings",
     "permission.settings.view": "Settings (Notes): View General settings",
-    "settings.label": "Notes settings"
+    "settings.label": "Notes settings",
+    "permission.item.assign-unassign.execute": "Notes: Can assign and unassign a note"
 }

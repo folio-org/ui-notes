@@ -10,7 +10,6 @@
     "permission.item.create": "Uwagi: Może tworzyć uwagi",
     "permission.item.edit": "Uwagi: Może edytować uwagę",
     "permission.item.delete": "Uwagi: Może usunąć uwagę",
-    "permission.item.assign-unassign": "Uwagi: Może przypisać i cofnąć przypisanie uwagi",
     "settings.maxAmount": "Maksymalna liczba typów uwag to {amount}.",
     "settings.noteTypes.deleteEntry": "Delete note type",
     "settings.noteTypes.termDeleted": "The note type <b>{term}</b> was successfully <b>deleted</b>",
@@ -18,5 +17,6 @@
     "settings.noteType": "Typ uwagi",
     "permission.settings.edit": "Settings (Notes): Edit and View General settings",
     "permission.settings.view": "Settings (Notes): View General settings",
-    "settings.label": "Ustawienia uwag"
+    "settings.label": "Ustawienia uwag",
+    "permission.item.assign-unassign.execute": "Notes: Can assign and unassign a note"
 }

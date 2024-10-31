@@ -10,7 +10,6 @@
     "permission.item.create": "Notes: peut créer une note",
     "permission.item.edit": "Notes: peut modifier une note",
     "permission.item.delete": "Notes: peut supprimer une note",
-    "permission.item.assign-unassign": "Notes: peut affecter et annuler l'attribution d'une note",
     "settings.maxAmount": "Le nombre maximum de types de notes autorisés est de {amount} .",
     "settings.noteTypes.deleteEntry": "Delete note type",
     "settings.noteTypes.termDeleted": "The note type <b>{term}</b> was successfully <b>deleted</b>",
@@ -18,5 +17,6 @@
     "settings.noteType": "Note type",
     "permission.settings.edit": "Settings (Notes): Edit and View General settings",
     "permission.settings.view": "Settings (Notes): View General settings",
-    "settings.label": "Notes settings"
+    "settings.label": "Notes settings",
+    "permission.item.assign-unassign.execute": "Notes: Can assign and unassign a note"
 }

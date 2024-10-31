@@ -10,7 +10,6 @@
     "permission.item.create": "Notas: Pode criar uma nota",
     "permission.item.edit": "Notas: Pode editar uma nota",
     "permission.item.delete": "Notas: Pode excluir uma nota",
-    "permission.item.assign-unassign": "Notas: Pode atribuir e desatribuir uma nota",
     "settings.maxAmount": "O número máximo de tipos de notas permitidos é {amount} .",
     "settings.noteTypes.deleteEntry": "Excluir tipo de nota",
     "settings.noteTypes.termDeleted": "O tipo de nota <b> {term} </b> foi <b> excluído </b> com sucesso",
@@ -18,5 +17,6 @@
     "settings.noteType": "Tipo de nota",
     "permission.settings.edit": "Configurações (notas): Editar e visualizar configurações gerais",
     "permission.settings.view": "Configurações (Notas): Exibir configurações gerais",
-    "settings.label": "Configurações de notas"
+    "settings.label": "Configurações de notas",
+    "permission.item.assign-unassign.execute": "Notas: Pode atribuir e desatribuir uma nota"
 }

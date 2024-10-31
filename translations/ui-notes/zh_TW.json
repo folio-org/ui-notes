@@ -10,7 +10,6 @@
     "permission.item.create": "附註：可以新增附註",
     "permission.item.edit": "附註：可以编辑附註",
     "permission.item.delete": "附註：可以删除附註",
-    "permission.item.assign-unassign": "附註：可以指派和取消指派附註",
     "settings.maxAmount": "允許的最大附註類型數為{amount} 。",
     "settings.noteTypes.deleteEntry": "删除附註類型",
     "settings.noteTypes.termDeleted": "附註類型<b>{term}</b> 已成功<b>刪除</b>",
@@ -18,5 +17,6 @@
     "settings.noteType": "附註類型",
     "permission.settings.edit": "設定（附註）：編輯、檢視一般設定",
     "permission.settings.view": "設定（附註）：檢視一般設定",
-    "settings.label": "附註設定"
+    "settings.label": "附註設定",
+    "permission.item.assign-unassign.execute": "Notes: Can assign and unassign a note"
 }
