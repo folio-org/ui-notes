@@ -10,7 +10,6 @@
     "permission.item.create": "Poznámky: Může vytvořit poznámku",
     "permission.item.edit": "Poznámky: Může upravit poznámku",
     "permission.item.delete": "Poznámky: Může smazat poznámku",
-    "permission.item.assign-unassign": "Poznámky: Může přiřadit a zrušit přiřazení poznámky",
     "settings.maxAmount": "Maximální počet povolených typů poznámek je {amount}.",
     "settings.noteTypes.deleteEntry": "Smazat typ poznámky",
     "settings.noteTypes.termDeleted": "Typ poznámky <b>{term}</b> byl úspěšně <b>smazán</b>",
@@ -18,5 +17,6 @@
     "settings.noteType": "Typ poznámky",
     "permission.settings.edit": "Nastavení (Poznámky): Upravit a zobrazit obecná nastavení",
     "permission.settings.view": "Nastavení (Poznámky): Zobrazení Obecných nastavení",
-    "settings.label": "Nastavení poznámek"
+    "settings.label": "Nastavení poznámek",
+    "permission.item.assign-unassign.execute": "Notes: Can assign and unassign a note"
 }

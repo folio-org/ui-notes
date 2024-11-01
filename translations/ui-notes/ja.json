@@ -10,7 +10,6 @@
     "permission.item.create": "ノート: ノートを作成できます",
     "permission.item.edit": "ノート: ノートを編集できます",
     "permission.item.delete": "ノート: ノートを削除できます",
-    "permission.item.assign-unassign": "ノート: ノートの割り当て、解除ができます",
     "settings.maxAmount": "許可されるノートタイプの最大#は{amount}です。",
     "settings.noteTypes.deleteEntry": "ノートタイプの削除",
     "settings.noteTypes.termDeleted": "ノートタイプ<b>{term} </b> は正常に<b>削除</b>されました",
@@ -18,5 +17,6 @@
     "settings.noteType": "ノートタイプ",
     "permission.settings.edit": "設定 (ノート): 一般設定の編集、表示",
     "permission.settings.view": "設定 (ノート): 一般設定の表示",
-    "settings.label": "ノートの設定"
+    "settings.label": "ノートの設定",
+    "permission.item.assign-unassign.execute": "Notes: Can assign and unassign a note"
 }

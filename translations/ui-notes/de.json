@@ -10,7 +10,6 @@
     "permission.item.create": "Notizen: Kann eine Notiz erstellen",
     "permission.item.edit": "Notizen: Kann eine Notiz bearbeiten",
     "permission.item.delete": "Notizen: Kann eine Notiz löschen",
-    "permission.item.assign-unassign": "Notizen: Kann eine Notiz zuweisen oder entfernen",
     "settings.maxAmount": "Maximale Anzahl # von zulässigen Notiztypen ist {amount}.",
     "settings.noteTypes.deleteEntry": "Notiztyp löschen",
     "settings.noteTypes.termDeleted": "Der Notiztyp <b> {term} </b> wurde erfolgreich <b> gelöscht </b>",
@@ -18,5 +17,6 @@
     "settings.noteType": "Notiztyp",
     "permission.settings.edit": "Einstellungen (Notizen): Liste der Einstellungsseiten anzeigen",
     "permission.settings.view": "Einstellungen (Notizen): Einstellungsseiten anzeigen",
-    "settings.label": "Notes settings"
+    "settings.label": "Notes settings",
+    "permission.item.assign-unassign.execute": "Notes: Can assign and unassign a note"
 }

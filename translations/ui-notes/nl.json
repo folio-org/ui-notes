@@ -10,7 +10,6 @@
     "permission.item.create": "Opmerkingen: Kan een opmerking aanmaken",
     "permission.item.edit": "Opmerkingen: Kan een opmerking bewerken",
     "permission.item.delete": "Opmerkingen: Kan een opmerking verwijderen",
-    "permission.item.assign-unassign": "Opmerkingen: Kan opmerkingen toewijzen en toewijzingen ongedaan maken.",
     "settings.maxAmount": "Maximum aantal opmerkingstypen opmerkingen is {amount}.",
     "settings.noteTypes.deleteEntry": "Opmerkingstype verwijderen",
     "settings.noteTypes.termDeleted": "Het opmerkingstype <b>{term}</b> is succesvol <b>verwijderd</b>.",
@@ -18,5 +17,6 @@
     "settings.noteType": "Opmerkingstype",
     "permission.settings.edit": "Instellingen (Opmerkingen): Algemene instellingen bewerken en bekijken",
     "permission.settings.view": "Instellingen (Opmerkingen): Algemene instellingen bekijken",
-    "settings.label": "Instellingen opmerkingen"
+    "settings.label": "Instellingen opmerkingen",
+    "permission.item.assign-unassign.execute": "Notes: Can assign and unassign a note"
 }
