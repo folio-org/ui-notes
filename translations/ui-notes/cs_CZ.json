@@ -18,5 +18,5 @@
     "permission.settings.edit": "Nastavení (Poznámky): Upravit a zobrazit obecná nastavení",
     "permission.settings.view": "Nastavení (Poznámky): Zobrazení Obecných nastavení",
     "settings.label": "Nastavení poznámek",
-    "permission.item.assign-unassign.execute": "Notes: Can assign and unassign a note"
+    "permission.item.assign-unassign.execute": "Poznámky: Může přiřadit a zrušit přiřazení poznámky"
 }
