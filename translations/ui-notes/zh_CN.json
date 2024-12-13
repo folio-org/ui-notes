@@ -18,5 +18,5 @@
     "permission.settings.edit": "设置（附注）：编辑和查看通用设置",
     "permission.settings.view": "设置（附注）：查看通用设置",
     "settings.label": "附注设置",
-    "permission.item.assign-unassign.execute": "Notes: Can assign and unassign a note"
+    "permission.item.assign-unassign.execute": "附注：可以分配和取消分配附注"
 }
