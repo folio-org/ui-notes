@@ -1,6 +1,7 @@
 # Change history for ui-notes
 
-## [11.0.0] (IN PROGRESS)
+## [11.0.0] (https://github.com/folio-org/ui-notes/tree/v11.0.0) (2024-03-13)
+[Full Changelog](https://github.com/folio-org/ui-notes/compare/v10.0.0...v11.0.0)
 
 * *BREAKING* migrate stripes dependencies to their Sunflower versions. (UINOTES-164)
 * *BREAKING* migrate react-intl to v7. (UINOTES-165)
