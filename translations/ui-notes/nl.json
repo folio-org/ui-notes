@@ -18,5 +18,5 @@
     "permission.settings.edit": "Instellingen (Opmerkingen): Algemene instellingen bewerken en bekijken",
     "permission.settings.view": "Instellingen (Opmerkingen): Algemene instellingen bekijken",
     "settings.label": "Instellingen opmerkingen",
-    "permission.item.assign-unassign.execute": "Notes: Can assign and unassign a note"
+    "permission.item.assign-unassign.execute": "Opmerking: U kunt een Opmerking toewijzen en verwijderen."
 }
