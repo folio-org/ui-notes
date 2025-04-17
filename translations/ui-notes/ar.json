@@ -14,9 +14,9 @@
     "settings.noteTypes.deleteEntry": "حذف نوع الملاحظة",
     "settings.noteTypes.termDeleted": "The note type <b>{term}</b> was successfully <b>deleted</b>",
     "settings.noteTypes.termWillBeDeleted": "The note type <b>{term}</b> will be <b>deleted.</b>",
-    "settings.noteType": "Note type",
-    "permission.settings.edit": "Settings (Notes): Edit and View General settings",
-    "permission.settings.view": "Settings (Notes): View General settings",
+    "settings.noteType": "نوع الملاحظة",
+    "permission.settings.edit": "الإعدادات (ملاحظات): تحرير وعرض الإعدادات العامة",
+    "permission.settings.view": "الإعدادات (ملاحظات): عرض الإعدادات العامة",
     "settings.label": "Notes settings",
-    "permission.item.assign-unassign.execute": "Notes: Can assign and unassign a note"
+    "permission.item.assign-unassign.execute": "ملاحظات: إمكانية تعيين وإلغاء تعيين ملاحظة"
 }
