@@ -1,6 +1,10 @@
 # Change history for ui-notes
 
-## [11.0.0] (https://github.com/folio-org/ui-notes/tree/v11.0.0) (2024-03-13)
+## [11.1.0] (IN PROGRESS)
+
+* Settings > Notes> Add Notes application icon. (UINOTES-169)
+
+## [11.0.0] (https://github.com/folio-org/ui-notes/tree/v11.0.0) (2025-03-13)
 [Full Changelog](https://github.com/folio-org/ui-notes/compare/v10.0.0...v11.0.0)
 
 * *BREAKING* migrate stripes dependencies to their Sunflower versions. (UINOTES-164)

@@ -52,6 +52,13 @@
       "settings"
     ],
     "displayName": "ui-notes.meta.title",
+    "icons": [
+      {
+        "name": "app",
+        "alt": "Notes settings",
+        "title": "Notes settings"
+      }
+    ],
     "route": "/notes",
     "okapiInterfaces": {
       "notes": "4.0"
