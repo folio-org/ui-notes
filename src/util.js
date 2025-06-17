@@ -25,3 +25,21 @@ export function validate(item, index, items, field, label) {
 
   return error;
 }
+
+export const handleCreateFail = (res, sendCallout) => {
+  res.json().then(body => {
+    const error = body?.errors?.[0];
+
+    if (!error) {
+      return;
+    }
+
+    if (error.code === 'NOTE_TYPES_LIMIT_REACHED') {
+      const limit = error.parameters.find(param => param.key === 'limit');
+      sendCallout({
+        type: 'error',
+        message: <FormattedMessage id="ui-notes.settings.maxAmount" values={{ amount: limit?.value }} />,
+      });
+    }
+  });
+};

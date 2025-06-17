@@ -12,7 +12,10 @@ import {
 } from '@folio/stripes/core';
 import { ControlledVocab } from '@folio/stripes/smart-components';
 
-import { validate } from '../util';
+import {
+  handleCreateFail,
+  validate,
+} from '../util';
 
 const propTypes = {
   stripes: PropTypes.shape({
@@ -36,24 +39,6 @@ const NoteTypesSettings = ({ stripes }) => {
 
   const suppressDelete = noteType => {
     return !canEdit || get(noteType, 'usage.isAssigned');
-  };
-
-  const handleCreateFail = (res) => {
-    res.json().then(body => {
-      const error = body?.errors?.[0];
-
-      if (!error) {
-        return;
-      }
-
-      if (error.code === 'NOTE_TYPES_LIMIT_REACHED') {
-        const limit = error.parameters.find(param => param.key === 'limit');
-        callout.sendCallout({
-          type: 'error',
-          message: formatMessage({ id: 'ui-notes.settings.maxAmount' }, { amount: limit?.value }),
-        });
-      }
-    });
   };
 
   const suppressEdit = () => !canEdit;
@@ -82,7 +67,7 @@ const NoteTypesSettings = ({ stripes }) => {
           name: label
         }}
         canCreate={canEdit}
-        onCreateFail={handleCreateFail}
+        onCreateFail={(res) => handleCreateFail(res, callout.sendCallout)}
         nameKey="name"
         id="noteTypes"
         sortby="name"
