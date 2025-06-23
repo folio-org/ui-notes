@@ -1,8 +1,13 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
 
-import { handleCreateFail, validate } from './util';
 import { waitFor } from '@folio/jest-config-stripes/testing-library/react';
+
+import {
+  handleCreateFail,
+  NOTE_TYPES_LIMIT_REACHED_ERROR,
+  validate,
+} from './util';
 
 const fieldName = 'name';
 
@@ -40,7 +45,7 @@ describe('Notes utils', () => {
         const res = {
           json: jest.fn().mockResolvedValue({
             errors: [{
-              code: 'NOTE_TYPES_LIMIT_REACHED',
+              code: NOTE_TYPES_LIMIT_REACHED_ERROR,
               parameters: [{
                 key: 'limit',
                 value: 25,

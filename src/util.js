@@ -26,6 +26,8 @@ export function validate(item, index, items, field, label) {
   return error;
 }
 
+export const NOTE_TYPES_LIMIT_REACHED_ERROR = 'NOTE_TYPES_LIMIT_REACHED';
+
 export const handleCreateFail = (res, sendCallout) => {
   res.json().then(body => {
     const error = body?.errors?.[0];
@@ -34,7 +36,7 @@ export const handleCreateFail = (res, sendCallout) => {
       return;
     }
 
-    if (error.code === 'NOTE_TYPES_LIMIT_REACHED') {
+    if (error.code === NOTE_TYPES_LIMIT_REACHED_ERROR) {
       const limit = error.parameters.find(param => param.key === 'limit');
       sendCallout({
         type: 'error',
