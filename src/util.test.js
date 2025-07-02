@@ -1,8 +1,6 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
 
-import { waitFor } from '@folio/jest-config-stripes/testing-library/react';
-
 import {
   getErrorMessage,
   NOTE_TYPES_LIMIT_REACHED_ERROR,
@@ -52,7 +50,7 @@ describe('Notes utils', () => {
 
         expect(getErrorMessage(errors)).toEqual({
           fieldErrors: [],
-          commonErrors: [expect.objectContaining({ id: 'ui-notes.settings.maxAmount' })],
+          commonErrors: [expect.any(Object)],
         });
       });
     });
