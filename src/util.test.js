@@ -42,19 +42,15 @@ describe('Notes utils', () => {
   describe('getErrorMessage', () => {
     describe('when error is due to limit reached', () => {
       it('should return a correct error object', async () => {
-        const res = {
-          json: jest.fn().mockResolvedValue({
-            errors: [{
-              code: NOTE_TYPES_LIMIT_REACHED_ERROR,
-              parameters: [{
-                key: 'limit',
-                value: 25,
-              }],
-            }],
-          }),
-        };
+        const errors = [{
+          code: NOTE_TYPES_LIMIT_REACHED_ERROR,
+          parameters: [{
+            key: 'limit',
+            value: 25,
+          }],
+        }];
 
-        expect(getErrorMessage(res)).toEqual({
+        expect(getErrorMessage(errors)).toEqual({
           fieldErrors: [],
           commonErrors: [expect.objectContaining({ id: 'ui-notes.settings.maxAmount' })],
         });
@@ -63,16 +59,12 @@ describe('Notes utils', () => {
 
     describe('when error is due to another reason', () => {
       it('should return empty errors', async () => {
-        const res = {
-          json: jest.fn().mockResolvedValue({
-            errors: [{
-              code: 'unknown',
-              parameters: [],
-            }],
-          }),
-        };
+        const errors = [{
+          code: 'unknown',
+          parameters: [],
+        }];
 
-        expect(getErrorMessage(res)).toEqual({
+        expect(getErrorMessage(errors)).toEqual({
           fieldErrors: [],
           commonErrors: [],
         });
