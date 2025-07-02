@@ -13,7 +13,7 @@ import {
 import { ControlledVocab } from '@folio/stripes/smart-components';
 
 import {
-  handleCreateFail,
+  getErrorMessage,
   validate,
 } from '../util';
 
@@ -67,7 +67,7 @@ const NoteTypesSettings = ({ stripes }) => {
           name: label
         }}
         canCreate={canEdit}
-        onCreateFail={(res) => handleCreateFail(res, callout.sendCallout)}
+        getCustomErrorMessages={getErrorMessage}
         nameKey="name"
         id="noteTypes"
         sortby="name"

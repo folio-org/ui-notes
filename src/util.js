@@ -28,20 +28,26 @@ export function validate(item, index, items, field, label) {
 
 export const NOTE_TYPES_LIMIT_REACHED_ERROR = 'NOTE_TYPES_LIMIT_REACHED';
 
-export const handleCreateFail = (res, sendCallout) => {
-  res.json().then(body => {
-    const error = body?.errors?.[0];
+export const getErrorMessage = (errors) => {
+  const error = errors?.[0];
 
-    if (!error) {
-      return;
-    }
+  const emptyErrors = {
+    fieldErrors: [],
+    commonErrors: [],
+  };
 
-    if (error.code === NOTE_TYPES_LIMIT_REACHED_ERROR) {
-      const limit = error.parameters.find(param => param.key === 'limit');
-      sendCallout({
-        type: 'error',
-        message: <FormattedMessage id="ui-notes.settings.maxAmount" values={{ amount: limit?.value }} />,
-      });
-    }
-  });
+  if (!error) {
+    return emptyErrors;
+  }
+
+  if (error.code === NOTE_TYPES_LIMIT_REACHED_ERROR) {
+    const limit = error.parameters.find(param => param.key === 'limit');
+
+    return {
+      fieldErrors: [],
+      commonErrors: [<FormattedMessage id="ui-notes.settings.maxAmount" values={{ amount: limit?.value }} />],
+    };
+  }
+
+  return emptyErrors;
 };
