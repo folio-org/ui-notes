@@ -1,10 +1,8 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
 
-import { waitFor } from '@folio/jest-config-stripes/testing-library/react';
-
 import {
-  handleCreateFail,
+  getErrorMessage,
   NOTE_TYPES_LIMIT_REACHED_ERROR,
   validate,
 } from './util';
@@ -39,47 +37,35 @@ describe('Notes utils', () => {
     });
   });
 
-  describe('handleCreateFail', () => {
+  describe('getErrorMessage', () => {
     describe('when error is due to limit reached', () => {
-      it('should show a callout message', async () => {
-        const res = {
-          json: jest.fn().mockResolvedValue({
-            errors: [{
-              code: NOTE_TYPES_LIMIT_REACHED_ERROR,
-              parameters: [{
-                key: 'limit',
-                value: 25,
-              }],
-            }],
-          }),
-        };
+      it('should return a correct error object', async () => {
+        const errors = [{
+          code: NOTE_TYPES_LIMIT_REACHED_ERROR,
+          parameters: [{
+            key: 'limit',
+            value: 25,
+          }],
+        }];
 
-        const sendCallout = jest.fn();
-
-        handleCreateFail(res, sendCallout);
-
-        await waitFor(() => expect(sendCallout).toHaveBeenCalledWith(expect.objectContaining({
-          type: 'error',
-        })));
+        expect(getErrorMessage(errors)).toEqual({
+          fieldErrors: [],
+          commonErrors: [expect.any(Object)],
+        });
       });
     });
 
     describe('when error is due to another reason', () => {
-      it('should not show the callout message', async () => {
-        const res = {
-          json: jest.fn().mockResolvedValue({
-            errors: [{
-              code: 'unknown',
-              parameters: [],
-            }],
-          }),
-        };
+      it('should return empty errors', async () => {
+        const errors = [{
+          code: 'unknown',
+          parameters: [],
+        }];
 
-        const sendCallout = jest.fn();
-
-        handleCreateFail(res, sendCallout);
-
-        await waitFor(() => expect(sendCallout).not.toHaveBeenCalledWith());
+        expect(getErrorMessage(errors)).toEqual({
+          fieldErrors: [],
+          commonErrors: [],
+        });
       });
     });
   });

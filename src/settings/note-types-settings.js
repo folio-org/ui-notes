@@ -6,14 +6,11 @@ import {
 } from 'react-intl';
 import { get } from 'lodash';
 
-import {
-  TitleManager,
-  useCallout,
-} from '@folio/stripes/core';
+import { TitleManager } from '@folio/stripes/core';
 import { ControlledVocab } from '@folio/stripes/smart-components';
 
 import {
-  handleCreateFail,
+  getErrorMessage,
   validate,
 } from '../util';
 
@@ -26,7 +23,6 @@ const propTypes = {
 
 const NoteTypesSettings = ({ stripes }) => {
   const { formatMessage } = useIntl();
-  const callout = useCallout();
   const ConnectedControlledVocab = stripes.connect(ControlledVocab);
 
   const paneTitle = formatMessage({ id: 'ui-notes.settings.noteTypes' });
@@ -67,7 +63,7 @@ const NoteTypesSettings = ({ stripes }) => {
           name: label
         }}
         canCreate={canEdit}
-        onCreateFail={(res) => handleCreateFail(res, callout.sendCallout)}
+        getCustomErrorMessages={getErrorMessage}
         nameKey="name"
         id="noteTypes"
         sortby="name"
