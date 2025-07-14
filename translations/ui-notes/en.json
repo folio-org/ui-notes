@@ -9,7 +9,7 @@
   "settings.noteTypes.termWillBeDeleted": "The note type <b>{term}</b> will be <b>deleted.</b>",
   "settings.notes": "Notes",
   "settings.duplicated": "{field} duplicated",
-  "settings.maxAmount": "Maximum # of note types allowed is {amount}.",
+  "settings.maxAmount": "Maximum number of note types allowed is {amount}.",
   "settings.label": "Notes settings",
 
   "permission.module.notes.enabled": "UI: ui-notes module is enabled",
