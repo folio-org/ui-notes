@@ -10,7 +10,7 @@
     "permission.item.create": "Примечания: можно создать заметку",
     "permission.item.edit": "Примечания: можно редактировать примечание",
     "permission.item.delete": "Примечания: можно удалить заметку",
-    "settings.maxAmount": "Maximum # of note types allowed is {amount}.",
+    "settings.maxAmount": "Maximum number of note types allowed is {amount}.",
     "settings.noteTypes.deleteEntry": "Delete note type",
     "settings.noteTypes.termDeleted": "The note type <b>{term}</b> was successfully <b>deleted</b>",
     "settings.noteTypes.termWillBeDeleted": "The note type <b>{term}</b> will be <b>deleted.</b>",
