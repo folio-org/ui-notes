@@ -10,7 +10,7 @@
     "permission.item.create": "Notas: Pode criar uma nota",
     "permission.item.edit": "Notas: Pode editar uma nota",
     "permission.item.delete": "Notas: Pode excluir uma nota",
-    "settings.maxAmount": "O número máximo de tipos de notas permitidos é {amount} .",
+    "settings.maxAmount": "O número máximo de tipos de notas permitidos é {amount}.",
     "settings.noteTypes.deleteEntry": "Excluir tipo de nota",
     "settings.noteTypes.termDeleted": "O tipo de nota <b> {term} </b> foi <b> excluído </b> com sucesso",
     "settings.noteTypes.termWillBeDeleted": "O tipo de nota <b> {term} </b> será <b> excluído. </b>",
