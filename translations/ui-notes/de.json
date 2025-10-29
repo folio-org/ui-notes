@@ -15,7 +15,7 @@
     "settings.noteTypes.termDeleted": "Der Notiztyp <b> {term} </b> wurde erfolgreich <b> gelöscht </b>",
     "settings.noteTypes.termWillBeDeleted": "Der Notiztyp <b> {term} </b> wird <b> gelöscht. </b>",
     "settings.noteType": "Notiztyp",
-    "permission.settings.edit": "Einstellungen (Notizen): Liste der Einstellungsseiten anzeigen",
+    "permission.settings.edit": "Einstellungen (Notizen): Einstellungsseiten bearbeiten",
     "permission.settings.view": "Einstellungen (Notizen): Einstellungsseiten anzeigen",
     "settings.label": "Notes settings",
     "permission.item.assign-unassign.execute": "Notes: Can assign and unassign a note"
