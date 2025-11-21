@@ -17,6 +17,6 @@
     "settings.noteType": "Notiztyp",
     "permission.settings.edit": "Einstellungen (Notizen): Einstellungsseiten bearbeiten",
     "permission.settings.view": "Einstellungen (Notizen): Einstellungsseiten anzeigen",
-    "settings.label": "Notes settings",
-    "permission.item.assign-unassign.execute": "Notes: Can assign and unassign a note"
+    "settings.label": "Notizeinstellungen",
+    "permission.item.assign-unassign.execute": "Notizen: Kann eine Notiz zuweisen und die Zuweisung aufheben"
 }
