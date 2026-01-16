@@ -68,13 +68,17 @@
       {
         "permissionName": "module.notes.enabled",
         "displayName": "UI: ui-notes module is enabled",
-        "visible": false
+        "visible": false,
+        "subPermissions": [
+          "stripes-core.settings.read"
+        ]
       },
       {
         "permissionName": "settings.notes.enabled",
         "visible": false,
         "subPermissions": [
-          "settings.enabled"
+          "settings.enabled",
+          "stripes-core.settings.read"
         ]
       },
       {

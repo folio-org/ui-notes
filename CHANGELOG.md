@@ -4,6 +4,7 @@
 
 * Settings > Notes> Add Notes application icon. (UINOTES-169)
 * *BREAKING* Handle BE error when a note type limit has been reached. (UINOTES-173)
+* Include universal read-only permissions. (UINOTES-179)
 
 ## [11.0.0] (https://github.com/folio-org/ui-notes/tree/v11.0.0) (2025-03-13)
 [Full Changelog](https://github.com/folio-org/ui-notes/compare/v10.0.0...v11.0.0)
