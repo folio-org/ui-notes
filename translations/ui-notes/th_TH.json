@@ -1,0 +1,22 @@
+{
+    "settings.index.paneTitle": "Notes",
+    "settings.noteTypes": "Note types",
+    "settings.notes": "Notes",
+    "settings.duplicated": "{field} duplicated",
+    "meta.title": "Notes",
+    "settings.general": "General",
+    "permission.module.notes.enabled": "UI: ui-notes module is enabled",
+    "permission.item.view": "Notes: Can view a note",
+    "permission.item.create": "Notes: Can create a note",
+    "permission.item.edit": "Notes: Can edit a note",
+    "permission.item.delete": "Notes: Can delete a note",
+    "settings.maxAmount": "Maximum number of note types allowed is {amount}.",
+    "settings.noteTypes.deleteEntry": "Delete note type",
+    "settings.noteTypes.termDeleted": "The note type <b>{term}</b> was successfully <b>deleted</b>",
+    "settings.noteTypes.termWillBeDeleted": "The note type <b>{term}</b> will be <b>deleted.</b>",
+    "settings.noteType": "Note type",
+    "permission.settings.edit": "Settings (Notes): Edit and View General settings",
+    "permission.settings.view": "Settings (Notes): View General settings",
+    "settings.label": "Notes settings",
+    "permission.item.assign-unassign.execute": "Notes: Can assign and unassign a note"
+}
