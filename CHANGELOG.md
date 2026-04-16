@@ -1,6 +1,7 @@
 # Change history for ui-notes
 
-## [12.0.0] (IN PROGRESS)
+## [12.0.0] (https://github.com/folio-org/ui-notes/tree/v12.0.0) (2026-04-16)
+[Full Changelog](https://github.com/folio-org/ui-notes/compare/v11.0.0...v12.0.0)
 
 * Settings > Notes> Add Notes application icon. (UINOTES-169)
 * *BREAKING* Handle BE error when a note type limit has been reached. (UINOTES-173)
