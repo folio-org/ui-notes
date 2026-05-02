@@ -14,9 +14,9 @@
     "settings.noteTypes.deleteEntry": "Delete note type",
     "settings.noteTypes.termDeleted": "The note type <b>{term}</b> was successfully <b>deleted</b>",
     "settings.noteTypes.termWillBeDeleted": "The note type <b>{term}</b> will be <b>deleted.</b>",
-    "settings.noteType": "Note type",
-    "permission.settings.edit": "Settings (Notes): Edit and View General settings",
+    "settings.noteType": "Type de note",
+    "permission.settings.edit": "Paramètres (Notes) : Modifier et afficher les paramètres généraux",
     "permission.settings.view": "Settings (Notes): View General settings",
     "settings.label": "Notes settings",
-    "permission.item.assign-unassign.execute": "Notes: Can assign and unassign a note"
+    "permission.item.assign-unassign.execute": "Notes : peut affecter et annuler l'attribution d'une note"
 }
